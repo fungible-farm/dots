@@ -17,6 +17,10 @@ jobs:
           use-mermaid: true
           use-toc: true
           use-opengh: true
+      - name: svgbob_cli
+        run: cargo install svgbob_cli
+      - name: svgbob mdbook
+        run: cargo install mdbook-svgbob
       - name: Show mdbook version
         run: mdbook --version
       - name: Show linkchecker version
@@ -28,6 +32,7 @@ jobs:
       - name: Show open-on-gh version
         run: mdbook-open-on-gh --version
       - run: mdbook build && mdbook test # In case of custom book path: mdbook build path/to/mybook && mdbook test path/to/mybook  
+
       - uses: JamesIves/github-pages-deploy-action@4.1.7
         with:
           branch: gh-pages # The branch the action should deploy to.
