@@ -1,6 +1,8 @@
 
 # notes related to mdbook
 
+[published docs/](https://elasticdotventures.github.io/fungiblefarm-mdbook/book/)
+
 ## TODO
 * https://github.com/jontze/action-mdbook
 * https://www.npmjs.com/package/mdbook-nodejs-preprocessor-builder
