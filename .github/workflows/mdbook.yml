@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -26,3 +27,8 @@ jobs:
         run: mdbook-toc --version
       - name: Show open-on-gh version
         run: mdbook-open-on-gh --version
+        
+      - uses: JamesIves/github-pages-deploy-action@4.1.7
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: book # The folder the action should deploy.
