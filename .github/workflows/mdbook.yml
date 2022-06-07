@@ -11,8 +11,8 @@ on:
 jobs:
   run:
     runs-on: ubuntu-22.04
-    container: 
-    image: ghcr.io/elasticdotventures/ff-rust-musl-builder
+    #container: 
+    #  image: ghcr.io/elasticdotventures/ff-rust-musl-builder
       #credentials:
       #  username: ${{ github.actor }}
       #  password: ${{ secrets.github_token }}    
