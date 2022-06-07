@@ -10,9 +10,25 @@ on:
 # https://elasticdotventures.github.io/fungiblefarm-mdbook/book/ 
 jobs:
   run:
-    runs-on: elasticdotventures/ff-rust-musl-builder
+    runs-on: ubuntu-22.04
+    container: 
+    image: ghcr.io/elasticdotventures/ff-rust-musl-builder
+      #credentials:
+      #  username: ${{ github.actor }}
+      #  password: ${{ secrets.github_token }}    
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3 # mount github workspace
+
+      - uses: addnab/docker-run-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+        registry: gcr.io
+          image: private-image:latest
+          options: -v ${{ github.workspace }}:/work -e ABC=123
+        run: |
+          echo "Running Script"
+          /work/run-script
 
       - uses: actions-rs/toolchain@v1
         with:
