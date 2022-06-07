@@ -1,3 +1,5 @@
+
+
 name: Setup mdBook with plugins (latest)
 on:
   push:
@@ -8,40 +10,34 @@ on:
 # https://elasticdotventures.github.io/fungiblefarm-mdbook/book/ 
 jobs:
   run:
-    runs-on: ubuntu-latest
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+    runs-on: elasticdotventures/ff-rust-musl-builder
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+
       - uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
-          
-      - uses: jontze/action-mdbook@v1
-        with:
-          token: ${{secrets.GITHUB_TOKEN}}
-          # Optional Plugins have to be enabled
-          use-linkcheck: true
-          use-mermaid: true
-          use-toc: true
-          use-opengh: true
-      - name: svgbob_cli
-        run: cargo install svgbob_cli
-      - name: svgbob mdbook
-        run: cargo install mdbook-svgbob
-      - name: Show mdbook version
-        run: mdbook --version
-      - name: Show linkchecker version
-        run: mdbook-linkcheck --version
-      - name: Show mermaid version
-        run: mdbook-mermaid --version
-      - name: Show toc version
-        run: mdbook-toc --version
-      - name: Show open-on-gh version
-        run: mdbook-open-on-gh --version
-      - run: mdbook build && mdbook test # In case of custom book path: mdbook build path/to/mybook && mdbook test path/to/mybook  
 
-      - uses: JamesIves/github-pages-deploy-action@4.1.7
+      # https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-mdbook-rust
+      - name: Setup mdBook
+        uses: peaceiris/actions-mdbook@v1
         with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: . # The folder the action should deploy.
+          mdbook-version: '0.4.8'
+          # mdbook-version: 'latest'
+
+      - run: mdbook build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+
+      ## alt node js
+      # https://github.com/JamesIves/github-pages-deploy-action
+      #- uses: JamesIves/github-pages-deploy-action@4.1.7
+      #  with:
+      #    branch: gh-pages # The branch the action should deploy to.
+      #    folder: . # The folder the action should deploy.
+

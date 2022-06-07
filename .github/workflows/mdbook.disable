@@ -1,0 +1,47 @@
+name: Setup mdBook with plugins (latest)
+on:
+  push:
+    branches:
+      - main
+
+
+# https://elasticdotventures.github.io/fungiblefarm-mdbook/book/ 
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          
+      - uses: jontze/action-mdbook@v1
+        with:
+          token: ${{secrets.GITHUB_TOKEN}}
+          # Optional Plugins have to be enabled
+          use-linkcheck: true
+          use-mermaid: true
+          use-toc: true
+          use-opengh: true
+      - name: svgbob_cli
+        run: cargo install svgbob_cli
+      - name: svgbob mdbook
+        run: cargo install mdbook-svgbob
+      - name: Show mdbook version
+        run: mdbook --version
+      - name: Show linkchecker version
+        run: mdbook-linkcheck --version
+      - name: Show mermaid version
+        run: mdbook-mermaid --version
+      - name: Show toc version
+        run: mdbook-toc --version
+      - name: Show open-on-gh version
+        run: mdbook-open-on-gh --version
+      - run: mdbook build && mdbook test # In case of custom book path: mdbook build path/to/mybook && mdbook test path/to/mybook  
+
+      - uses: JamesIves/github-pages-deploy-action@4.1.7
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: . # The folder the action should deploy.
