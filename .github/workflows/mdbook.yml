@@ -24,8 +24,8 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
         registry: gcr.io
-          image: private-image:latest
-          options: -v ${{ github.workspace }}:/work -e ABC=123
+          image: elasticdotventures/ff-rust-musl-builder
+          #options: -v ${{ github.workspace }}:/work -e ABC=123
         run: |
           echo "Running Script"
           /work/run-script
