@@ -49,8 +49,8 @@ jobs:
             # alias rust-musl-builder='docker run --rm -it -v "$(pwd)":/home/rust/src elasticdotventures/rust-musl-builder'
             cd /src
             ls -la /src
-            mkdir -p ./docs
-            mdbook build -d ./docs
+            mkdir -p ./work
+            mdbook build -d ./work
 
 
       # https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-mdbook-rust
