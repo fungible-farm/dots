@@ -46,9 +46,11 @@ jobs:
           #image: elasticdotventures/ff-rust-musl-builder
           run: |
             echo "Running Script"
+            # alias rust-musl-builder='docker run --rm -it -v "$(pwd)":/home/rust/src elasticdotventures/rust-musl-builder'
             cd /src
             ls -la /src
-            mdbook build
+            mkdir -p ./docs
+            mdbook build -d ./docs
 
 
       # https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-mdbook-rust
@@ -58,7 +60,7 @@ jobs:
           mdbook-version: '0.4.8'
           # mdbook-version: 'latest'
 
-      - run: mdbook build
+      - run: mdbook build -d docs
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
