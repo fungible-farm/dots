@@ -1,3 +1,41 @@
-# Summary
+# Fungible.farm Summary
 
-- [Chapter 1](./chapter_1.md)
+- [Welcome](README.md)
+    - [Executive Summary](./bigpicture.md)
+    - [Mission](./mission.md)
+    - [Org Structure](./org-structure.md)
+    - [Advisors](./advisors.md)
+        - [CEAT](./ceat.md)
+
+- [🥰 Cybernetics](./cybernetics.md)
+    - [Agriculture]()
+    - [AI Research](./cyber-ai-research.md)
+    - [*.Fungibles](./cyber-fungibles.md)
+
+- [🌱 Agriculture]()
+    - [Cultivation]()
+
+- [🍄 Mycology](./mycology.md)
+    - [Chitin](./myco-chitin.md)
+    - [Co2 Sequestration]()
+    - [*.Fungibles](./myco-fungibles.md)
+
+- [🤖 Mechatronics](./mechantronics.md)
+    - [Substrates]()
+    - [Hybrid Mfg](./hybrid-mfg.md)
+    - [Processing](./)
+    - [*.Fungibles](./mecha-fungibles.md)
+        - [Structural UltraCapacitors](./structural-ultracapacitors.md)
+
+- [🕸️ Web3](./crypto.md)
+    - [Blockchain Validators]()
+    - [Smart Contracts](./crypto-mint.md)
+    - [Metaverse Commerce]()
+    - [Cyber-Governance](./web3-governance.md)
+    - [Candi-Date.xyz](./candi-date_xyz.md)
+    - [*.Fungibles]()
+- [🤓 Reference]()
+    - [🪆 TRIZ/TIPS](./TRIZ.md)
+    - [👽 Technology](./tech-stack.md)
+    - [🚀 todo](./TODO.md)
+        - [🙈🙉🙊](./sample.md)
