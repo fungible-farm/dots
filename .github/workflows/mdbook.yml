@@ -65,6 +65,8 @@ jobs:
 
       - run: cargo install mdbook-toc
 
+      - run: cargo install mdbook-mermaid
+
       - run: mdbook build -d ./docs
 
       # the CNAME file sets up the dots.fungible.farm alias

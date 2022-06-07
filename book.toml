@@ -7,20 +7,20 @@ title = "Fungible Farm Thesis"
 
 [preprocessor.bib]
 bibliography = "bibliography.bib"
+#zotero-uid = "<a_Zotero_userID>"
 
 [preprocessor.toc]
 command = "mdbook-toc"
 
-# # https://mermaid-js.github.io/mermaid/#/
-# [preprocessor.mermaid]
-# command = "mdbook-mermaid"
-# renderer = ["html"]
+# https://mermaid-js.github.io/mermaid/#/
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+renderer = ["html"]
 
-# [output.html]
-# additional-css = ["./mermaid.css", "./mdbook-admonish.css", "./open-in.css"]
-# additional-js = ["mermaid.min.js", "mermaid-init.js"]
-# git-repository-url = "https://github.com/elasticdotventures/fungiblefarm-site"
-
+[output.html]
+additional-css = ["./mermaid.css", "./mdbook-admonish.css", "./open-in.css"]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
+git-repository-url = "https://github.com/elasticdotventures/fungiblefarm-site"
 
 # # https://ivanceras.github.io/svgbob-editor/
 # # cargo install svgbob_cli
@@ -43,5 +43,3 @@ command = "mdbook-toc"
 
 
 
-#[preprocessor.bib]
-#zotero-uid = "<a_Zotero_userID>"
