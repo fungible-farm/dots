@@ -45,6 +45,12 @@
 
         <!-- Custom theme stylesheets -->
         
+        <link rel="stylesheet" href="./mermaid.css">
+        
+        <link rel="stylesheet" href="./mdbook-admonish.css">
+        
+        <link rel="stylesheet" href="./open-in.css">
+        
 
         
     </head>
@@ -138,6 +144,10 @@
                         </a>
                         
                         
+                        <a href="https://github.com/elasticdotventures/fungiblefarm-site" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
                         
 
                     </div>
@@ -185,12 +195,12 @@ extra parameters or packages included.
 </code></pre>
 <pre><code class="language-admonishsuccess&quot;&quot;">This will take a while, go and grab a drink of water.
 </code></pre>
-<pre><code class="language-mermaid">graph TD;
+<pre class="mermaid">graph TD;
     A--&gt;B;
     A--&gt;C;
     B--&gt;D;
     C--&gt;D;
-</code></pre>
+</pre>
 <pre><code class="language-bob">                                   .------------&gt;-----------------.
        ┌-------------┐  .-.   .-.  |   ┌------┐  .-.   ┌-----┐    |    .-.   ┌------┐
   O-╮--| struct_name |-( : )-( | )-╰-╮-| name |-( : )--| tpe |--╮-╯---( | )--| body |--╭---O
@@ -287,6 +297,10 @@ function copyToClipboard(text) {
         <script src="book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
+        
+        <script type="text/javascript" src="mermaid.min.js"></script>
+        
+        <script type="text/javascript" src="mermaid-init.js"></script>
         
 
         
