@@ -5,11 +5,11 @@ multilingual = false
 src = "b00k"
 title = "Fungible Farm Thesis"
 
-#[preprocessor.bib]
-#bibliography = "my_biblio.bib"
+[preprocessor.bib]
+bibliography = "bibliography.bib"
 
-# [preprocessor.toc]
-# command = "mdbook-toc"
+[preprocessor.toc]
+command = "mdbook-toc"
 
 # # https://mermaid-js.github.io/mermaid/#/
 # [preprocessor.mermaid]

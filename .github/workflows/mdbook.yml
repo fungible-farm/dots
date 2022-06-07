@@ -61,7 +61,13 @@ jobs:
           mdbook-version: '0.4.8'
           # mdbook-version: 'latest'
 
+      - run: cargo install mdbook-bib
+
+      - run: cargo install mdbook-toc
+
       - run: mdbook build -d ./docs
+
+      # the CNAME file sets up the dots.fungible.farm alias
       - run: cp CNAME ./docs/CNAME
 
       - name: Deploy
