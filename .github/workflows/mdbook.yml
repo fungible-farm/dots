@@ -36,7 +36,8 @@ jobs:
 
 
       # docker pull ghcr.io/emk/rust-musl-builder
-      - uses: addnab/docker-run-action@v3
+      - name: docker-run-action
+        uses: addnab/docker-run-action@v3
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
@@ -49,8 +50,8 @@ jobs:
             # alias rust-musl-builder='docker run --rm -it -v "$(pwd)":/home/rust/src elasticdotventures/rust-musl-builder'
             cd /src
             ls -la /src
-            mkdir -p ./work
-            mdbook build -d ./work
+            sudo mkdir -p ./src/work
+            mdbook build -d ./src/work
 
 
       # https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-mdbook-rust
