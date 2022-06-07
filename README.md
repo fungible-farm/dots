@@ -3,6 +3,17 @@
 
 [published docs/](https://elasticdotventures.github.io/fungiblefarm-mdbook/book/)
 
+
+# 
+DOCKER_BUILDKIT=1 docker build -t elasticdotventures/fungiblefarm-dots --build-arg BUILDKIT_INLINE_CACHE=1 .
+# docker buildx build --cache-to=user/app:cache .
+
+# https://github.com/rust-lang/mdBook/wiki/Automated-Deployment%3A-GitHub-Pages
+# https://github.com/elasticdotventures/fungiblefarm-mdbook/settings/pages
+# https://docs.github.com/en/packages/learn-github-packages/connecting-a-repository-to-a-package
+
+
+
 ## TODO
 * https://github.com/jontze/action-mdbook
 * https://www.npmjs.com/package/mdbook-nodejs-preprocessor-builder

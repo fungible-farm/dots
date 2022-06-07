@@ -1,12 +1,7 @@
 FROM elasticdotventures/ff-rust-musl-builder AS builder
 # https://hub.docker.com/r/ekidd/rust-musl-builder/
 
-# DOCKER_BUILDKIT=1 docker build -t elasticdotventures/fungiblefarm-mdbook --build-arg BUILDKIT_INLINE_CACHE=1 .
-# docker buildx build --cache-to=user/app:cache .
 
-# https://github.com/rust-lang/mdBook/wiki/Automated-Deployment%3A-GitHub-Pages
-# https://github.com/elasticdotventures/fungiblefarm-mdbook/settings/pages
-# https://docs.github.com/en/packages/learn-github-packages/connecting-a-repository-to-a-package
 
 # Volume
 VOLUME ["/home/rust/.cargo/git", "/home/rust/src/target"]
@@ -27,11 +22,12 @@ ARG VERSION=${VERSION:-0.4.8}
 # * https://lib.rs/crates/mdbook-fs-summary
 
 #FROM miy4/plantuml
+FROM elasticdotventures/ff-rust-musl-builder
 
-RUN cargo install mdbook --vers 0.4.8
-#COPY --from=builder \
-#    /home/rust/.cargo/bin/mdbook \
-#    /usr/local/bin/
+#RUN cargo install mdbook --vers 0.4.8
+COPY --from=builder \
+    /home/rust/.cargo/bin/mdbook \
+    /usr/local/bin/
 
 ##
 RUN cargo install mdbook-bib
@@ -81,8 +77,9 @@ RUN cargo install mdbook-open-on-gh
 RUN (rm /tmp/* 2>/dev/null || true) \
     && (rm -rf /var/cache/apk/* 2>/dev/null || true)
 
-WORKDIR /mdbook
-COPY ./mdbook-demo ./
+#WORKDIR /mdbook
+#WORKDIR 
+#COPY ./mdbook-demo ./
 
 ENTRYPOINT ["/usr/local/bin/mdbook"]
 CMD ["--help"]

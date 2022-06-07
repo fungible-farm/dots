@@ -6,11 +6,14 @@ on:
     branches:
       - main
 
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
 
 # https://elasticdotventures.github.io/fungiblefarm-mdbook/book/ 
 jobs:
   run:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-20.04
     #container: 
     #  image: ghcr.io/elasticdotventures/ff-rust-musl-builder
       #credentials:
@@ -19,20 +22,34 @@ jobs:
     steps:
       - uses: actions/checkout@v3 # mount github workspace
 
+      #- name: Log in to the Container registry
+      #  uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
+      #  with:
+      #    registry: ${{ env.REGISTRY }}
+      #    username: ${{ github.actor }}
+      #    password: ${{ secrets.GITHUB_TOKEN }}
+
+      # install rust
+      #- uses: actions-rs/toolchain@v1
+      #  with:
+      #    toolchain: stable
+
+
+      # docker pull ghcr.io/emk/rust-musl-builder
       - uses: addnab/docker-run-action@v3
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           registry: ghcr.io
-          image: elasticdotventures/ff-rust-musl-builder
-          #options: -v ${{ github.workspace }}:/work -e ABC=123
+          image: ghcr.io/emk/rust-musl-builder
+          options: -v ${{ github.workspace }}:/src -e ABC=123
+          #image: elasticdotventures/ff-rust-musl-builder
           run: |
             echo "Running Script"
-            /work/run-script
+            cd /src
+            ls -la /src
+            mdbook build
 
-      - uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
 
       # https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-mdbook-rust
       - name: Setup mdBook
