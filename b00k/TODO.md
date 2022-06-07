@@ -16,3 +16,6 @@
 * extending an invitation to Volker Hessel @ 
 
 
+# Law2 (legal advisor)
+    * https://docs.google.com/document/d/1EsNTnk8UkI5RClK_rjv8HR5oQO7b3mYKMaH_pSPpuT4/edit
+

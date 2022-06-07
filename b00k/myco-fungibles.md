@@ -6,7 +6,12 @@ The broadest goal of the project is to produce multiple methods & mechanisms usi
 When considering the applications, I encourage you to read this publication from MIT related to cultured lab-grown wood:
 https://news.mit.edu/2021/lab-grown-plant-tissue-0120
 
+            * Chitin, Co2 & Graphene green novel material development, sales & licensing
+
+
 Direct to consumer applications are intially making soap from Co2 and/or meat-replacements from fungi using the mechatronic cultivation to reduce costs.   
+
+
 
 The fungal analog to cellulose ligands is chitin, which is the principal material which will be studied for manufacturing by fungible.farm.  Fungible.farm will incorporate cellulose ligands when it is appropriate, we're pro-fungi not anti-cellulose (in fact, fungi chemically consumes cellulose ligands during it's mycellial growth stage). 
 

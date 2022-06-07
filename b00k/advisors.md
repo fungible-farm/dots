@@ -1,6 +1,8 @@
 
 
 
+
+
 #
 
 ## 🤖 Mechatronics, Cybernetics, ANU & CEAT
@@ -104,5 +106,75 @@ Australia presently enjoys high crypto-currency as a speculative commodity 'inve
 
 Here is the short 'why' you should be excited about this for Australia --  more than 90% of present day semi-conductors are made in Taiwan.  Each nation is presently assessing their on dependency in a complex geopolitical world - how to become self-sustainable in semi-conductor manufacturing.   The present day belief is that is assumed to costs billions of dollars to build complex "manufacturing plants" (also called 'nodes' in a semiconductor system design venacular), but has no other overlap to agriculture that I'm aware of.   Presently the only place in Australia I'm aware of that does any type of semiconductive fab is in Adelaide, as a semi-secret CSIRO project to nationally make "TPM' chip's" for defensive military & possibly critical infrastructure applications.   However I am quite sure if CEAT was to approach CSIRO with the simple idea of growing transistive mushrooms for incorporation in cybernetic systems, they may identify many applications. 
 To be clear, my proposed applications are microscale 'durable lightweight solid state biological energy storage' not-necessarily suitable for nanoscale high frequency fabrication (CPU's, etc.), but certainly a flexible, durable TPM chip is conceivable by the end of the decade or possibly much sooner. 
+
+
+-----
+
+Lunar Agrinomy
+
+Dear Dr. Volker Hessel,
+
+I wanted to thank you for the time you spent with me over the holidays.  I reviewed our conversation which I enjoyed greatly.  Thank you for your time. 
+
+Upon consideration of your project related to future lunar agronomics I attempted to modify my own desire to pursue Martian agriculture.
+
+The broad common areas:
+Similar requirements for closed-biospheres & sustainable tech
+Space Transport is cost prohibitive, lightweight durably shielded equipment
+Absence of petroleum, bacteria, etc. suggest the need to redesign nearly all existing earth manufacturing processes 
+
+It was quite enjoyable to review a variety of papers & conclusions derived principally from the Apollo era missions that covered the composition & stratification of the lunar regolith and more recently confirmed by ESA, blabla. 
+
+The present assumptions about lunar regolith seem straightforward & comprehensively studied.   The lack of water & atmosphere presents itself to me as the largest obstacle towards lunar occupation with self-sufficiency (not reliant on earth) will require some amount of agriculture. 
+
+The relative simplicity of lunar vs martian missions can be staged with considerably shorter timeframes and the moon maintains a consistent distance and synchronous rotational orientation with respect to earth.  A small moon colony & research outpost could be indefinitely supplied from earth with sufficient budget & resources.  
+
+Several feasible mechanisms exist to harvest both hydrogen & oxygen from lunar strata and combine those to generate water.   Ultimately the size of a lunar colony will be limited only by the sponsoring nations ability to either continuously resupply or to pursue self-sufficiency in one or more of the requisite dimensions to support life and eliminate the requirement for ongoing resupply. 
+
+In terms of a lunar biosphere, related to long term occupation the size of the biosphere will require considerations including ability to operate safely under positive pressure and provide a vapor/lock moisture barrier.  Withstanding extreme temperatures, blabla.  In this capacity the ability to harvest solar radiation is simplified, and the potential to utilize lunar materials in proportion to demand. 
+
+The lunar absence of gravity & atmosphere may present a variety of challenges related to manufacturing processes but it’s also possible that these disadvantages could be leveraged as strengths.    
+
+Perovskites 
+https://www.nasa.gov/feature/glenn/2019/building-solar-panels-in-space-might-be-as-easy-as-clicking-print
+
+Alternatives assessment of perovskite solar cell materials and their methods of fabrication
+
+https://www.sciencedirect.com/science/article/abs/pii/S1364032120304962
+CH3NH3SnIBr2
+
+
+
+
+I believe that present NASA plans presume a 100% earth-origin base rather than utilize any materials for lunar construction.   Your project to produce lunar-fertilizer therefore is sufficiently ambitious.   I suspect future plans might include intentionally directing asteroids into a collision on the lunar surface as a means to enrich the lunar regolith for either mining or agricultural purposes.  
+Potassium isotopic composition of the Moon
+https://www.sciencedirect.com/science/article/abs/pii/S001670372030274X
+
+
+The Apollo era used a variety of old-tech to examine lunar soils and extract minerals.
+The composition of lunar soil in particular to separate the phosphorus may be simplified  (accelerated & performed with less energy) using sonotrodes tuned to the internal resonant frequency of the regolith.   The near absence of gravity suggests that terrestrial processes such as flocculation will be less effective or take considerably longer to accomplish.  
+
+I remain convinced that in the last few years it has become feasible to genetically engineer and cultivate DNA from organisms which are specifically engineered to utilize the high-alkaline lunar soil.   Whatever methods you are presently developing, the synthetic biotechnology approach methods will (in my opinion) demonstrate the most cost-effective mechanism for large scale ‘lunar sustanable’ biosphere construction.   
+
+https://www.researchgate.net/publication/277080168_Are_heterotrophic_and_silica-rich_eukaryotic_microbes_an_important_part_of_the_lichen_symbiosis
+
+
+The ability of eukaryotes and particularly extremophiles to formulate novel enzymes which can extract minerals while being subject directly to solar radiation is well documented in species of lichen which could even grow directly on the lunar surface.   
+
+Genetically engineered lichen using approaches such as CRISPR/TALEN and accelerated using either high-voltage stimulation or applications of arc-plasma.
+
+https://www.researchgate.net/publication/277080168_Are_heterotrophic_and_silica-rich_eukaryotic_microbes_an_important_part_of_the_lichen_symbiosis
+
+
+
+
+
+
+
+
+
+
+
+
 
 

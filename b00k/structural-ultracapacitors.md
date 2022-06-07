@@ -13,3 +13,64 @@ Reference: https://pubs.acs.org/doi/10.1021/acs.biomac.5b01653
 So I use the term battery only to make the subject more approachable to non-electrical engineers, the proper term is "ultra-capacitance", there is no electro-chemical reaction.   To finish my narrative - the electric eel incidentally was originally 'discovered' and cataloged ONLY 30 years prior to Volta, his discovery was facilitatied by his own curiousity and studying the earlier work of Carl Linneaus.   Linneaus who is historically attributed with cataloging & introducing the 5 'kingdoms'  (animal, plant, fungi, protist and monera), as well as ALL the latin naming conventions for everything we use today. Volta was reading his work, that lead to the development of voltaic piles, the precursor to batteries.  Unfortunately, shortly thereafter science became much more specialized - electronics engineering and biology diverged as separate fields, resulting in separate disciplines of specialization - so it is unlikely anybody has actually tried to do this, certainly with the enabling technologies I have access to, on paper - a TRIZ analysis suggests this is certainly feasible, but simply overlooked in favor of mostly rare-earth mined metals being used in batteries when there is actually little-to-no explicit physical-law requirements, it's all material science.  (In fact solid state batteries are better in many aspects, especially naturally producing buoyant thermally insultative 'fireproof' structural energy storage devices, have so many applications its difficult to fathom!).  
 
 
+
+----
+
+Background information
+
+This document contains notes on developing a construction material / technique that describes large solid-state supercapacitors “rechargeable battery” designs suitable for new-construction integration with PV-solar or wind generated renewable power buildings.   In layman's terms: brick batteries. 
+
+The Australian construction market relies heavily on bricks, along steel (iron), and the economy has rich deposits of coal (which is mostly pure carbon).  These are primary chemical ingredients for tertiary cell “rechargeable batteries” using ultra-capacitors.  Ultra-capacitors can be made out of a variety of materials (such as bricks) by incorporating small amounts of doping agents during sintering within bricks.  The bricks would retain their full durability for construction but also be able to serve a dual purpose as a home or commercial energy storage reservoir.  A large portion of this business proposal hinges upon cultivating a partnership with one of the 67 brick manufacturers within Australia.  Several of the companies are publicly traded regional and Asian construction supply conglomerates. 
+
+Why Australia
+Australia is a unique continent and country of limited population and blessed with an abundance of natural resources spread across a huge area.  Australia due to its geographic location benefits from a high degree of self-sufficiency. Due to its small population and highly educated workforce (and trade-schools) it has a cozy relationship between science and industry that is unparalleled in the world.   Australia's government and scientific bureau CISRO are both forward thinking toward climate change which threatens many of Australia's cities and natural habitats.   Australian manufacturers operate across geographically diverse regionalized communities are able to more easily leverage word of mouth and can therefore adopt (or adapt) innovative technologies that suit their needs.  With an abundance of sunlight Australia is leading the world in photovoltaic (PV) energy and is even in the process of exporting that energy to Singapore via a superconductive underwater cable. Energy independence is recognized as a national imperative mission by all Australians but especially among Australia industrialists. 
+
+Inspiration: Turn normal Red Bricks into Electric Storing Supercapacitors
+The inspiration for this paper came from:
+https://science.slashdot.org/story/20/08/12/188249/scientists-turn-normal-red-bricks-into-electricity-storing-supercapacitors
+The inspiration article above started my line of inquiry -- at first glance it’s innovative, well written and thoroughly researched -- but upon deeper inspection it embodies the worst of academicia.  The resulting PEDOT coated bricks lack any real world suitability for industrial purposes. The process described required a secondary processing of the bricks for 14 hours performing vapor deposition of a P-EDOT water impermiable layer and infusing the bricks with sulphuric acid (likely rendering them unsuitable).  While reading the paper, a better idea presented itself.  The idea of arranging doped bricks in a super-capacitive design came from another article I read months ago about graphite doped “self healing” conductive concrete. 
+
+What are SuperCapacitors: The “Tertiary” (3rd Generation) battery
+
+Reference: “IEEE: Scientists are confusing batteries and superconductors argue experts” https://spectrum.ieee.org/tech-talk/green-tech/fuel-cells/scientists-are-confusing-batteries-and-supercapacitors-argue-experts
+
+Supercapacitors (and Ultracapacitors) are technically not batteries att all, although perhaps this distinction only applies to scientists. Batteries built over the past 200 years have accepted designations as primary (electrochemical, single use - disposable) and secondary electrolytic (rechargeable, of any chemical composition).   Currently 90% of the world's batteries are primary (disposable) while secondary (2nd generation) “rechargeable” batteries are growing mostly due to portable electronics and more recently electric cars.  High density secondary (non-disposable) batteries are almost universally constructed from a variety of rare-earth materials such as lithium that is often sourced in conflict regions.  In the future sustainable batteries will likely be made from graphene which has superior properties (although graphene was theorized in 1859 it wasn’t synthesized until 2004). Incorporating graphene as a substitute for coal is discussed later both coal and graphene are pure carbon in different molecular configurations. 
+
+Super-capacitors aren’t (by scientific definition) “batteries” at all but are in fact solid-state ‘static’ charge circuits.  Unlike secondary batteries supercapacitors can be quickly cycled (“charged and discharged”) repeatedly without wear and tear, providing far-superior energy storage to secondary batteries - hence “tertiary” (3rd generation) batteries.   Second generation batteries suffer to varying degrees to an effect called polarization which increases their resistance to charge after each use, and while they have higher energy density than super-capacitors there will typically need replacement after a limited number of duty-cycles - with the best batteries being able to withstand 10,000 cycles (27 years @ 1 cycle per day), whereas tertiary batteries designs based on super-capacitors can withstand millions or billions of cycles (2,700 to 2.7 million years @ 1 cycle per day).   Super-capacitors are finding all sorts of interesting applications such as regenerative braking on electric cars.  A 2020 report by Allied Market Research valued the global supercapacitor market at a modest $3.27 billion in 2019, but predicted that would reach $16.95 billion in 2027—a five-fold increase in just a few years!
+
+History of Batteries, Capacitors & SuperCapacitors:
+Although Greek & Iraqi museums claim to have discovered batteries in antiquity it was not until Luigi Galvani (credited with the “Galvanic cell” aka “Battery”) along with Alessandro Volta (known for the “Volt” measurement) published in 1791 that certain fluids would generate a continuous flow of electrical power due to a one-way redox electrochemical process that the battery came to exist.   The primary battery would be continuously improved by a variety of well-known industrialists such seeking to increase charge and eventually make a reusable electrochemical (secondary) battery. 
+
+https://en.wikipedia.org/wiki/Double_layer_(surface_science)
+
+The electrolytic capacitor was first invented in 1957, along with a variety of other capacitors being invented in subsequent years along with the rise in digital circuits.  The first supercapacitor was invented in 1982 but was limited to military research applications due to cost and secrecy.  The origin of “super-capacitor” was patented by NASA in 1995 and the term was used publicly around 1999.  Super-capacitors remain one of the most popular areas of undergraduate work in material science today (see “inspiration: supercapacitive bricks”).  Several manufacturers including Tesla, Apple and Samsung are currently investigating manufacturing their own super capacitors to replace (or supplement) lithium-ion batteries in their cell phones however the material-science & manufacturing.  The super-capacitor is logically the “tertiary (3rd generation) battery” with distinctive characteristics.  There is a lot of work being put into lightweight batteries at the present but very little work being put into heavy batteries (since conventional batteries are generally already very heavy) - at least beyond the story cited in the origin. 
+
+Hybrid Construction
+The properties of a super-capacitor
+
+
+Tertiary Batteries - Second Generation: Flash Graphene
+While the initial design proposals will use pulverized coal (or coke) as a source of carbon long term R&D consideration should be given to flash-graphene as a future improvement to this design.  Recent studies have indicated that ‘flash graphene’ can be inexpensively produced and could also be incorporated, however no large scale manufacturing technology has been developed.  Flash graphene can be sourced from any type of carbon including hemp cellulose waste or even non-recyclable plastic trash.   Due to a lack of availability in flash-graphene pulverized coal as a carbon source.  Graphene has a higher energy density as compared to lithium-ion batteries. Where the lithium is known to store up to 180 Wh per kilogram, graphene's capable of storing up to 1,000 Wh per kilogram. So, you can have a higher capacity graphene battery pack of the same size as the lithium-ion battery
+
+Lithium-ion has a higher energy density at 150/200 Wh/kg versus lithium iron phosphate at 90/120 Wh/kg. ... On the other hand, the discharge rate for lithium iron phosphate outmatches lithium-ion.  It is believed that graphene iron phosphate will exhibit similar characteristics. 
+
+Graphene is simply a single layer of carbon atoms and there are few (if any) industrial manufacturing techniques (although a huge amount of research).  Developing the doping process and fabrication with ground coal will allow for early market validation - and future higher density can be achieved using graphene.   There are also a variety of papers which demonstrate using graphene doping in concrete facilitates self healing and higher strength-to-weight ratios (as much as 10x) reducing the need (*and cost) for reinforcing steel and it is anticipated that similar achievements may be possible within the brick industry. 
+
+
+
+
+An electrode in an electrochemical cell is referred to as either an anode or a cathode (words that were coined by William Whewell at Faraday's request).[1] The anode is now defined as the electrode at which electrons leave the cell and oxidation occurs (indicated by a minus symbol, "−"), and the cathode as the electrode at which electrons enter the cell and reduction occurs (indicated by a plus symbol, "+"). Each electrode may become either the anode or the cathode depending on the direction of current through the cell. A bipolar electrode is an electrode that functions as the anode of one cell and the cathode of another cell.
+
+ the anode is the positive (+) electrode and the cathode the negative (−) for non-batteries! (i.e. super-capacitors)
+
+supercapacitors work electrostatically, rather than through reversible chemical reactions, they can theoretically be charged and discharged any number of times (specification sheets for commercial supercapacitors suggest you can cycle them perhaps a million times). 
+
+
+
+A cathode is the electrode from which a conventional current leaves a polarized electrical device. This definition can be recalled by using the mnemonic CCD for Cathode Current Departs. A conventional current describes the direction in which positive charges move. Electrons have a negative electrical charge, so the movement of electrons is opposite to that of the conventional current flow. Consequently, the mnemonic cathode current departs also means that electrons flow into the device's cathode from the external circuit.
+The electrode through which conventional current flows the other way, into the device, is termed an anode.
+
+
+
+
+

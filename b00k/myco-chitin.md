@@ -1,6 +1,30 @@
 # Chitin
 
 
+    * myco-chitin processed in synthetic fabrication of novel biopolymer substrates
+        * crab & lobster shell - marine chine
+        * insect cockroach, beetle claw - bio-chitin
+        * fungal mycellial chitin - myco-chitin
+        * doping & impregntation methods for biopolymer synthesis
+            * produces:  (anticipated) lightweight structural components
+                * with elastic high-tensile strength 
+                * selectively transistive dielectric properties (suitable for semiconductors)
+                * renewable, consuming principally cellulose wood-waste and doing soil remediation
+            * applications: 
+                * air-foils, hydrofoils, wings
+                * drone frames, marine applications (non porus, hydrophobic)
+                * robotic & aerospace vehicle exoskeletons
+        * (anticipated) selectively biodegradable (different synthesis methods)
+            * packaging
+            * comestible food "impossible meat"
+        * (anticipated) selectively transisitve (made of a dielectric, can be selectively impregnated)
+            * (anticipated) suitable for biosensors
+        * selectively transparent (in some atomic configurations)
+            * reported methods for making it transarent by remove opaque ligands
+        * 2x strongr than aluminum, 6x stronger than steel strength to weight ratio in some atomic configurations
+
+
+
 So for the Fungible.Farm hypothesis - is roughly, if evolution can make an electric eel, and Alessandro Volta can study that eel in 1800, and create a voltaic pile (battery), then I'm 'pretty sure' with my access to the Internet & my own ability to build/fabricate technology I can 3d print an electrically capactive mushroom.  I can do this because mushrooms are made of myco-chitin which is a  dilectric (a dilectric means it's an electrically 'insulative' material, not resistive, chitin, like ceramic does not allow electrons to pass, ergo either silicon, graphene or other atomically conductive materials could use the chitin as a substrate if a suitable deposition method such as additive deposition [3d printing] or other method such as photolithography can be identified).   The Fungible.Farm goal is to grow (produce) and subsequently test many different mycochitin substrates & deposition methods as part of a TRIZ methodology hopefully in conjuction with CEAT.
 
 

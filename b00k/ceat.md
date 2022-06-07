@@ -7,6 +7,12 @@
 
 
 
+
+I originally reached out to CEAT as my first point of contact, their inclination to participate in a research project I've been developing for principally for the past 2.5 years, as part of ~7yr continously ongoing autodidact self-paced study principally in & surrounding the field of Cybernetics (at least by my estimation).   I am looking for a 'best fit' base of operations such as ANU which will provide the 'largest luck' surface to conduct my research & ensure it gets appropriate visibility & impact federally is closer to the action. 
+
+So I am attempting to find my way through the proper channels in Australia, having recently expatriated from the US trying to find my way down-under.  I can only imagine your experience travelling to the US from this land.  Covid has made networking & getting meetings a bit challenging and I have found the amount of rules in Australia extremely tedious (comparatively to the US).  All roads point to the easy path being "I need to find a way to align & collaborate with ANU" and I think your program would be unequivocally the best fit for my background & project @ ANU.  I hope you agree.  💖🍄
+
+
 This is the what/where/why I want to work with CEAT, ARC, CSIRO, etc.   at least in Australia, these organizations are really the ONLY suitable option -- unless I care to continue prototyping in my garage.   (For what it's worth, I'm keen on matriculating into the AU institutions and never returning to the US.  I'd be quite happy to remain in the AU indefinitely provided I can find a place to continue my work.   In terms of funding, at some point I will need funding - that isn't immediate, however my wife would like me to get a more conventional 'day job' - probably as a fullstack dev, cloud architect, or cybersecurity expert which will distract me from what I see as very important and useful work in this field.  
 
 

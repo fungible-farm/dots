@@ -1,163 +1,69 @@
 
 
-
+```
 EVERYTHING SHOULD BE MADE AS SIMPLE AS POSSIBLE, BUT NOT SIMPLIER.
-ALBERT EINSTEIN
+-- ALBERT EINSTEIN
+```
 
-This is the public fungible.farm documentation & planning repository. 
-Everything in this document is public and intended for review.  
-To explain the project with broad strokes, it's a series of "yak shaving" software interface tasks of tying systems together intentionally to create an effect - the art of "systems engineering".   When engineering software systems it is a series of choices about which standards to choose before the first line of code is written.  When building something with my own capital and time I try to be efficient in how much proficiency I gain in one particular area. 
+#  Welcome to Fungible.Farm 🍄+🤖+🕸️=👋
+
+This is the public fungible.farm documentation & planning repository which is hosted at [http://dots.fungible.farm](http://dots.fungible.farm)
+
+Fungible.Farm is difficult since it covers many topics few people anything about.  There are no analogues or parallels made today. 
+
+## 🛗 The Elevator Pitch
+ Cybernetically growing mushrooms using AI & mechantronics to create structural semi-conductors sold using crypto-currency smart-contracts. 
+
+This repository will break down the method(s) within the madness.  🤓 
+
+
+## 😷 
+
+Imagine the year is 1792 and you're about to meet an inventor named Eli Whitney.  This inventor is explaining that he's got a machine which can pick-cotton and best of all - it runs on steam so it doesn't require human labor! Understandably, most people will hear about such a machine "Cotton Engine" and say "that's dumb, the old way works perfectly well".  In fact that is what most southern Plantation owners did - they said "Yeah, Nope", and kept farming the old way - using humans was "sufficient" and such new inventions would certainly not displace the old ways of doing things, ultimate this paralleled invention sparked both a civil war and an industrial age, ultimately leading to tractors, agriculture, fertilizer, pretty much all of modern society. 
+
+Now Fungible.farm is leveraging 'neo-modern' tech, and also tapping into roughly 1.5 billion years of "lost" evolutionary learning, where at least 800 million years was done prior to the arrival of mammals. So we're going to produce novel inventions that will reshape your future tomorrow - just wait!   We live in a cellulose driven renewable economy and Fungible.Farm is going to mycologically remediate this planet (and someday others). 
+
+Everything is green tech, and comes from a waste input, 100% of the outputs are comestible, green, co2 sequested, life-saving applications.
+
+The company is intentionally engineered to run sustainably at a carbon deficit (negative footprint).  Fungible.farm is a trans-human poly-social impacting many areas where humanity is presently faltering and unsustainable.  Fungible.farm was designed to be built & shipped (_someday_) to build/run/operate a martian biosphere, of course there aren't parallels on earth! 
+
+Certainly such ambitious goals require a bit of engineering and validation.   However because the systems use mostly artificial intelligence once they are online, it won't be moving a the same pace as your traditional companies do!  (our algorithms don't sleep, they don't need vacations or get sick, they work 7/24 - and they validate crypto-currency so when they aren't learning they are earning!) 
+
+Pronouns, everybody is a "they", or we say "yei".  Fungible.Farm operations are lean on humans, heavy on cognitive algorithms.  Commercial applications to create "profit" will be used for more research and growth, driving costs and creating more novel products over the next decade.  The bigger the organization becomes the more 'green impact' this becomes.  
+
+The organization is extremely high-tech &amp; mostly software-driven interface and utilizes a plurality Artificial Intelligence and very few humans.  This is good because humans are dirty animals and vectors for contagion in a 'dark' wet-lab & manufacturing process.  
+
+Cybernetics is a discipline of 'systems engineering'.   When engineering software systems it is a series of choices about which standards & methods to choose before the first line of code is written, the system must work "on paper".  Principal research began on the precursor system in 2016 in the US and was subsequently moved to Australia in 2020 during covid.  Small tests & research has been done to further specific intuition on ambiguous areas. 
 
 The outline(s) below are conceptual project outline, components and systems that are in various stages of being built and will need to interoperate.
-The initial focus is fast-prototyping & tooling, & software simulation & delivery systems & products. 
 
+The initial focus is fast-prototyping & tooling, & software simulation & delivery systems & products.  Presently looking for a place to create a small-scale 'proof of viability' end-to-end system, that will ultimately inform the bigger version (someday). 
 
 # Summary & Overview: 
 
-The core idea(s) of Fungible may seem a bit overwhelming at first glance because it is poly-disciplinary with each mission & goal synergistically supporting the others.
+The core idea(s) of Fungible may seem a bit overwhelming at first glance because it is poly-disciplinary with each mission & goal synergistically supporting eachother.  It is very technologically heavy and it presumes that some research can be reproduced or integrated in ways it has not necessarily been done _yet_.  
 
-Few if any of the processes presented here exist "today" or remain on the periphery of 'common knowledge'.  
+ The mushrooms are cultivated by robotics (human cultivation is expensive, and a vector for contamination, also humans aren't good at  nano-scale & micro-scale precision fabrication).  100% of present-day mycology is hand-driven, and is perhaps the biggest thing to happen to mushrooms & fungi in the last 800 million years. 
+ 
+ The mushrooms can be grown for food, or to make products, including novel semi-conductors that are lightweight & high-tensile 'structural energy storage'.  Cybernetics is used to design the systems, and AI is used extensively throughout the business. The Web3 'cyber-governance' business model is a better dojo for AI reinforcement learning.  The 'future' wholesale & retail sales portals will require web3 and the systems are designed for customer visibility.  The nature of 'structural super-capacitors' is perhaps the most ambitious aspect of the project, but the sales portal starts with a simple model of selling "soap" (the kind you wash your hands with), that is mostly environmentally sequestered Co2. 
+
+Few if any of the processes presented here exist "today" or the methods remain on the periphery of 'common knowledge'.  Research is cited where it is available and Fungible.Farm mostly seeks to reproduce research that was not commercialized. 
+
 Fungible.farm includes being 100% to be green-energy powered and have a negative carbon deficit design the Fungi producing Co2 during transpiration & mycogensis. Further, low cost, low emissions PoS (proof of stake) decentralized blockchains and being prepared to quickly scale & stratify production globally if any products become popular enough to warrant such an expansion. 
 
-# Fungible.Farm
-* a research decentralized organization development corporation
-* 'green-fruit' technology incubator
-    * mechatronic fabrication of 
-        * novel synthetic bio-polymers & bio-films
-        * made from fungi & optionally other fibers
-        * bio-transitive &  (can control electricity, fabric circuit boards, energy-storage) 
-        * Co2 sequester SOAP & Flash Graphene
-        * Flash-Graphene (for supercapactive research)
-    * advanced software development, including 
-        * async-chat & web-app based cyber-governance
-        * vendor portal to smart-contracts      
-        * employee/service-agent gamified onboarding tool http://candi-date.xyz
-        * crypto finger toolkit  web3://2d0t99~.fungible.farm
-        * ml/ops NLU bot driven infrastructure
+Fungible.farm uses [TRIZ](TRIZ.md) "Theory of Inventive Problem Solving" using small 'fast-fail' experiments to improve the "luck surface".   Fungible.Farm is intended to operate terrestrially from Australia, but using a US/global anti-fragile business methodology to quickly commercialize biosynthetic research & manufacturing.   
 
-* proposed to be operated by CEAT.com.au & ANU Canberra
-* proposed as an essential aspect of a Cybernetics PhD by Brian Horakh, possibly others. 
+Fungible's TRIZ attempts to sell & commercialize, or give away (for publicity & awareness) research & products during or slightly ahead of the experiment.  
 
-Development of specialised bio-synthetic Hybrid additive Manufacturing methods & technologies of (mostly) mushrooms & FUNGI in both organic mechatronic cultivation and non-organic electrochemical synthensis/deposition.   Fungible.Farm intentionally begins with "Fungi" and is a 'farm' cultivation system presented as a dark factory & lights-out wet-lab operated entirely by sterile robotics. 
-
-Fungible.farm uses [TRIZ](TRIZ.md) with some tweaks to improve the "luck surface" within the Australian capitalist-economics and uses a US anti-fragile business methodology to quickly commercialize biosynthetic research & manufacturing.   Fungible's TRIZ attempts to sell & commercialize, or give away (for publicity & awareness) research & products during or slightly ahead of the experiment.  This is a model similar to kick-starter and encourage community participation & awareness of the progression and encourage engagement more broadly in STEM including mechatronic agriculture & blockchain. 
-
-_Fungibility_: as a property, of an individual specimen or item, means it is replaceable by another identical item; mutually interchangeable.  In this case methods are designed as black-box functional 'tools' which can be built, interatively tested & refined and perform continous batch or duty-cycle cultivation on Fungi.  However this project also deals with crypto which as become synonmous with both "fungible" & "non-fungible" tokens, so that is organizationally embraced. 
-
-## 🌱 Green Tech
-All processes proposed within the Fungible project consume one or more abundant (mostly cellulose) waste inputs, and produce one or more "Fungible" (consumer & or industrial sale-able) outputs during each experiment & operational phases.  
+This is a model similar to kick-starter and encourage community participation & awareness of the progression and reward engagement more broadly in STEM including mechatronic agriculture & blockchain. 
 
 
-I feel compelled to say that I practice an anti-fragile and TRIZ (pronounced trees: Theory of Inventive Problem Solving) oriented towards by when asked to hit a target or choose a direction for research sometimes there are unexpected synergies between emerging enabling techologies. 
-
-# Key Ideas / References
-* Fungible.Farm 
-    * A research project by Brian Horakh.
-        * please fork my project, suggest edits. 
-        * the projects are each saleable proof of concepts designed to grow a project from nothing to something.
-        * such that it includes a lot of discussion for next-gen organizational tooling because the project will take 1-3 years to finish
-        * all projects are 1st tier - direct, 2nd tier - indirect climate & human welfare projects in mechatronic design & problem solving
-        * i realistically have no idea how far I can actually get on these, but I would very much like to try and discuss a functional prototype & priorites. 
-        * some of the projects are non-obvious 'inventions' where the product it is intended to make is a waste product of another process.
-        * ultimately all the waste is green-tech, green-energy net-negative co2 capture & long term storage
-        * using AI NLU generative (self assembling with parts & instructions, bill of material) mechatronics design & simulation w/reinforcement learning
-            * using dev/ops ci/cd pipeline & automatic asynchronous DAG parallelism
-            * tasks will automatically parallelize and can be added using idiomatic functional descriptions, samples, etc. (the system guesses using a co-pilot)
-            * onboarding tutorial & crypto-credential/wallet instructions
-
-    * where mycology & machine learning => meet fabrication
-        * a complete business proposal, which will be mocked as a proof of concept. 
-        * applying to ANU Australia National University Canberra as a future PhD candidate-in-residence in Cybernetics
-        * requesting collaboration from RMIT & robotics & blockchain, someday aerospace.
-        * extending an invitation to Volker Hessel @ 
-        * extending an invitation to Matthew Gillingham
-        * extending an invitation to ARC 
-        
-        * consultative access to staff to present ideas and get feedback
-        * async chat-based, discussion and online decentrlaized governance over financial transactions (with paranoid cybersec)
-        * web2.99 cyber-goverance (blockchain organizational crypto vault & smart-contract
-        * software choices that reflect these design decisions to start as 'crypto-native' 
-        * operates a crypto-blockchain, in addition to other not-related to crypto:
-            * Chitin, Co2 & Graphene green novel material development, sales & licensing
-            * http://Candi-date.xyz a crypto-gamified organization/company to STEM & AI professional matching service. 
-    * mechatronic cultivation of mushrooms 'dark factory'
-        * low labor cost, low contamination from humans
-        * roughly, mushroom bricks grown in sterile conditions
-        * mushroom bricks can make notvel biopolynmers, but also produce Co2
-        * Co2 will be captured and turned into SOAP, fresh oxygen will provided using CEAS chambers (Clean Air Energy Storage)
-        * for systems reliability & off-grid backup, single unit produces 100w USB-C suitable to charge field robotics
-        * units can be parallelized with booster to charge electric vehicles
-    * use advanced software patterns
-        * RUST & cargo based stateful control systems
-            * highly advanced programming language, specialized for broad range of systems engineering tasks
-            * functional language, designed in 2010, mostly-stablized libraries as described below
-            * ultra-concise, deterministic execution, lack of null & memory borrowing approach is more secure & concise
-            * compiler is incredibly smart at checking software for a variety of highly technical reasons
-            * extensive frameworks & library support: 
-            * Solidity
-                * Smart Contracts [see crypto.md](crypto.md)
-                * Web3 interfaces
-            * WASM interfaces, "polyglot, fast"
-                * connects many language libraries together
-            * WASM => Typescript (vue/web3.js)
-                * Web2 & Web3 project language
-            * WASM => Python/CFFI interfaces
-                * for Pytorch, AI/ML etc. 
-                * CadQuery geometry as code
-                    * parametrically described geometry as code, command line driven industrial desgin
-                    * goal is to produce an algorithm which provides Natural Language Tasks
-            * WASM is a poly glot cross language (many to any library translation)
-            * RUST is C++ without a null-pointer
-            * RUST programs cannot crash (by contract, highly suitable for smart-contracts)
-            * RUST compiles natively into a variety of binary formats including RISC-V, allowing development of embedded systems
-        * artificial intelligence 
-            * NLU generative reinforcement learning
-            * 3d generative design & simulation
-    
-        * web3.0 blockchain decentralized governance operational model
-
-    # Fungible.Farm project: 
-    * grow mushrooms
-        * principally (*hopefully entirely) mechatronic cultivation & monitoring
-        * capture Co2 sequesteration into soap. 
-        * controlled environment for cultivation of 'doped' (infused, impregnated) mycelial chitin 
-        * Queendom Fungora 800 million year old evolutionary genetic bank (existing 300m years before Plantae)
-            * no present day commercial market ~$100M USD, mostly snake-oil beauty cosmetics
-            * present day markets favor cellulose ligands as "renewable" material, has economy of scale
-            * design small systems prototypes and then scale suitable manufacturing applications.
-    * myco-chitin processed in synthetic fabrication of novel biopolymer substrates
-        * crab & lobster shell - marine chine
-        * insect cockroach, beetle claw - bio-chitin
-        * fungal mycellial chitin - myco-chitin
-        * doping & impregntation methods for biopolymer synthesis
-            * produces:  (anticipated) lightweight structural components
-                * with elastic high-tensile strength 
-                * selectively transistive dielectric properties (suitable for semiconductors)
-                * renewable, consuming principally cellulose wood-waste and doing soil remediation
-            * applications: 
-                * air-foils, hydrofoils, wings
-                * drone frames, marine applications (non porus, hydrophobic)
-                * robotic & aerospace vehicle exoskeletons
-        * (anticipated) selectively biodegradable (different synthesis methods)
-            * packaging
-            * comestible food "impossible meat"
-        * (anticipated) selectively transisitve (made of a dielectric, can be selectively impregnated)
-            * (anticipated) suitable for biosensors
-        * selectively transparent (in some atomic configurations)
-            * reported methods for making it transarent by remove opaque ligands
-        * 2x strongr than aluminum, 6x stronger than steel strength to weight ratio in some atomic configurations
-
-    * fabrication of methods & mechanis to produce turbostratic 'Flash' graphene
-        * evaluate input materials for application suitability
-        * johnson 'magic' angle deposition of graphene
-        * producing conductive & ferrous threads, filaments, inks, and acids
-        * additive deposition and synthethsis of molecular substrates (on a tape/conveyor)
-    * targeting 2d structural ultra-capacitance 
-        * (energy storage, like a battery but not chemical)
-        * several order of magnitude better than 
-    * targeting 2d graphene electrodes
-        * same material, different molecular configuration
 
 
+_Fungibility_: as a property, of an individual specimen or item, means it is replaceable by another identical item; mutually interchangeable.  In this case methods are designed as black-box functional 'tools' which can be built, interatively tested & refined and perform continous batch or duty-cycle cultivation on Fungi.  Fungible items can be sold. 
+
+This organization also deals with blockchain, smart-contracts, decentralized cyber-governance which is eponymous with both "fungible" coins & "non-fungible" tokens, and plans to launch a brand of SOAP known as "NFTy" mint crypto-coin soap.   The asynchronous chat based cyber-governance protocols are especially well suited for reinforcement learning done within a web3 sales & wholesale/retail experience(s). 
+
+The organizational processes are intended to be super-scalar.
 
 

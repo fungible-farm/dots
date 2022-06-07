@@ -1,6 +1,10 @@
 # *.Fungibles
 
 
+Provisional patent: 
+* [https://docs.google.com/document/d/1YCJrVaMDPwDdMXOpUCCARKG2JzfcipclcCgbSYbhETc/edit](Provisional Patent)
+
+
 This uses [TRIZ.md](TRIZ) which is a systems engineering approach where each project informs & makes the next project a little easier, programs, packages & procedures have been chosen for specific roles and most importantly their ability to interoperate & run simulations, perform calculations & conversions using a compositional programmatic fashion. 
 
 In terms of proper data-engineering and I have been investigating tooling in a variety of fields and have some rather technical opinions how some of this new technology can be used.  As a systems engineer with a 30 year career in working with open-source since the very early days when it was still called "Free Software". 
