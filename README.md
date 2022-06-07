@@ -1,16 +1,15 @@
 
-# notes related to mdbook
+## Welcome
 
-[published docs/](https://elasticdotventures.github.io/fungiblefarm-mdbook/book/)
+[http://dots.fungible.farm](http://dots.fungible.farm)
 
-
-# 
+## my notes
 DOCKER_BUILDKIT=1 docker build -t elasticdotventures/fungiblefarm-dots --build-arg BUILDKIT_INLINE_CACHE=1 .
-# docker buildx build --cache-to=user/app:cache .
+ docker buildx build --cache-to=user/app:cache .
 
-# https://github.com/rust-lang/mdBook/wiki/Automated-Deployment%3A-GitHub-Pages
-# https://github.com/elasticdotventures/fungiblefarm-mdbook/settings/pages
-# https://docs.github.com/en/packages/learn-github-packages/connecting-a-repository-to-a-package
+ https://github.com/rust-lang/mdBook/wiki/Automated-Deployment%3A-GitHub-Pages
+ https://github.com/elasticdotventures/fungiblefarm-mdbook/settings/pages
+ https://docs.github.com/en/packages/learn-github-packages/connecting-a-repository-to-a-package
 
 
 
