@@ -1,6 +1,9 @@
 # Filecoin Notary
 
-Please excuse the notes on this page, still developing a filecoin strategy.  
+Please excuse the notes on this page, still developing a filecoin strategy. 
+
+https://github.com/filecoin-project/notary-governance/discussions/527
+* 🤓
 
 * https://github.com/filecoin-project/filecoin-plus-client-onboarding#notary
 
@@ -25,6 +28,7 @@ https://spec.filecoin.io/systems/filecoin_token/token_allocation/
 
 Fungible.farm joined the Filecoin "Fil+" day on June 7, 2022
 
+
 The following proposals are planned:
 * registration of a Filecoin Notary
 * proposal for enterprise domain allocation
@@ -42,6 +46,8 @@ https://github.com/ipfs/devgrants/projects/1
 latest
 
 ## Technology
+* forest   synchronization modes
+    https://chainsafe.github.io/forest/basic_usage.html
 * Today: SysActors
     * https://github.com/filecoin-project/builtin-actors
     * https://spec.filecoin.io/#section-systems.filecoin_vm.sysactors
