@@ -1,17 +1,34 @@
-# Mission
-
+# Mission: Transhuman Social Impact
 
 The business operates intentionally almost entirely on bio-waste inputs, and seeks to provide many benefits including co2 sequestration.
 
-* some of the projects are non-obvious 'inventions' where the product it is intended to make is a waste product of another process.
+* some of the projects are non-obvious discoveries or 'required inventions' where the product or tool it is intended to make is a waste product of another process
 * ultimately all the waste is green-tech, green-energy net-negative co2 capture & long term storage
 
+# Environment Impact
+* co2 sequestration
+* petroleum destabilization
+
+# Social Impact
+* food
+* materials
+
+
+# Technology Impact
+* Cybersecurity & Cyber-governance
 
 The ambitions of the project start small and get bigger in terms of proving & refining tooling early on smaller & less expensive projects that are each *intended* (by design) to profitable & self-sustainable - but are really exercises to testing and improve the underlying systems as more layers of complexity are added progressively. 
 
 
+I see profitability as a requisite for sustainability & scale.  The vision for the FF & GPB system(s) is a “conservatory” indoor garden or patio farming-appliance that contains cybernetically controlled plants and weather.  The future of residential homes and commercial structures will likely contain multiple biophilic elements that exploit humans' innate desire to be part of a larger biological ‘natural’ ecosystem. These systems also clean the air, and can produce comestible food or medicinal plants such as Cannabis.  The GPB & FF systems operate on terra-firma; however the 2030 & beyond plan is to offer highly-reliable proven ‘astrobotany’ “Space Farming” to support the future independent Mars colonies.  Terrestrially the architectural vernacular is colloquially known as “solarpunk” which is my opinion on how humanity ought to emphasize creating a ‘sustainable’ utopian future here before we colonize other planets. 
+
+I am keen on continuing this pursuit as it has yielded a number of novel biotech innovations that I hope represent large multi-billion, possibly multi-trillion dollar disruptive planetary-scale market opportunities. 
+
+
 
 ## Background
+
+A mycologist, an evolutionary biologist, a rocket-scientist, a molecular electrochemist, an electronics engineer, and AI+robotics engineer all walk into a pub .. they have a few drinks, and together they MIGHT accidentally conceive Fungible.Farm. 
 
 My early Internet systems skills have helped me find/discover & pursue Intellectual-obscura as an autodidiact using online resources, schools, etc. (the not-generally known physics effects, manufacturing technicals, inventions lost to time).  Intellectual-obscura is uncharacteristically easy to access now that the Internet has cataloged "most" of it during my lifetime, so using TRIZ I can assume that (equipped with the Internet) I have a larger "intellectual toolkit" available than brilliant minds of history.  By accessing the independent research from a plurality of domain specialists to identify "enablement technology" (enablement tech deals with feasability prerequisite(s), such that two or more i.e. #1 enablement A & #2 enablement B are required - must be present to make result #3 C).   By putting each 'enabling technology' together into more complex systems, this is my contribution to evolution & my own transitive humanism -- I'm not actually inventing anything, I'm using already invented/discovered things for applications the inventor/discoverer didn't see or know how to do.  So I'm using TRIZ to pragmatically & incrementally explore the areas that exist between specialized research in concurrently emerging domains (areas where specialists don't frequently overlap, it's "out of field" for them).   Fungible is a combination of emergent tech+intellectual obscura - so looking for Entrepenurial 'high-utility' opportunities exist in-between where multiple domains are well understood for specialists (i.e. As the joke goes:  a mycologist, an evolutionary biologist, a rocket-scientist, a molecular electrochemist, an electronics engineer, and AI+robotics engineer all walk into a pub .. they have a few drinks, and together they MIGHT accidentally conceive Fungible.Farm) .. it's highly intra-disciplinary. 
 

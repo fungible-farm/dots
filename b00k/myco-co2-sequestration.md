@@ -4,6 +4,10 @@ The "Co2 into SOAP" idea was inspired by:
 https://cleano2.ca/
 
 
+I hope to repurpose the resulting (captured) CO2 from the mycogenesis to accelerate biogenesis of comestible & medicinal cultivars and demonstrate viability of zero water-loss farming structures to support one or more future colonies anywhere in Australia, globally, or eventually Mars biospheres.  
+
+There are many other useful emerging applications for carbon sequestration, in my case hemp cellulose can be used with flash-graphene to create safe & high efficiency solid state batteries so that’s my target output. 
+
 Fungible.Farm came about during research attempting to discover a non-petroleum source of Co2 to accelerate biogensesis in angiosperms during increased periods of light-fluence.  Most plants are lazy and only use 1% of the sunlight. 
 
 There may be some questions about how much co2 sequestration can be performed with this project given the relative small size of a mushroom.

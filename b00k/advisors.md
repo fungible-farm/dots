@@ -1,19 +1,35 @@
+# 🎓 Advisors
 
 
+# Founder/Systems Engineer
+🚀 Brian Horakh
+ (Melbourne Australia AEST office hours, US afternoons/evenings only!)
+🦘 AU +(61) 0422 863 313 
+🦅 US +(1) 760-786-4212
+📲 Matrix: @elasticdotventures:matrix.org 
+🤳Twitter: @brianhorakh 
+http://linked.in/brianhorakh
+http://bit.ly/resume-brianhorakh
+
+ 
+I have attended (audit not-for-credit) online classes and consumed the suggested reading lists for a variety of academic programs including MOOCs from MIT, Stanford, CMU, University of London and many others through courses such as Coursera & Udemy. 
+ 
+
+## 💱 start the funding list. 
+    * https://www.mseq.vc/researcher-office-hour
 
 
-
-#
 
 ## 🤖 Mechatronics, Cybernetics, ANU & CEAT
 
-I am looking for suitable home(s) & place to continue research while building the algorithms & machine(s) in simulators here as the research phase (related to tooling, what can be done) is finished, and how it is just wiring & fabrication.
+Fungible.farm is searching to build, buy or lease a wet-lab for research.
 
-Presently this is Australia National University, in the A3 Cybernetics program in conjunction with CEAT for the agricultural additive manufacturing aspects.  
+Small 'scale' simualtions, building the algorithms & machine(s) in simulators here as the research phase (related to tooling, what can be done) is finished, and how it is just wiring & fabrication.
 
+Presently the area of focus is Australia National University, Canberra
+in the A3 Cybernetics program in conjunction with CEAT (Centre for Entrepenurial Agri-Technology) 
 
-
-# Biographies
+# Distinguished Academics(s)
 * Dr. Oleksii (Alexei) Konashevych
     PhD in Law, Science and Technology | Blockchain | Digital Governance, 
     https://www.linkedin.com/in/oleksii-konashevych-89409042/?originalSubdomain=au#experience
@@ -48,18 +64,6 @@ Prof.  Volker Hessel at the Waite Research Institute in Adelaide has kindly offe
 RMIT’s Blockchain Innovation Hub
 
 Long term, for Fungible.Farm (long term, if/when successful) for scalability I hope to pivot the organization into a Rural Development Corporation - operated as an async-chat Crypto-DAO organizational-self-governance commercial-research-vehicle, providing an Australian 'forkable' template for non-custodial automated-comptroller cyber-governance organization for employing other graduate students.  This is a bit premature, but I want to start by saying this is both a crypto-project and a cybernetics project and a mechatronic mycology project in one package that I've been working on collectively for a few years.   This simple requirement states that I hope to explain certain aspects of my potential role(s) within the university organizational structure - and articulate "the vision" in Australian while not necessarily putting the cart before the horse.  I struggle to speak Australian, but I have a bit of American ambition, so please accept this application / project proposal, and if you are so inclined, consider it for fitment within your organization. 
-
-
-# Founder/Systems Engineer
-🚀 Brian Horakh
- (Melbourne Australia AEST office hours, US afternoons/evenings only!)
-🦘 AU +(61) 0422 863 313 
-🦅 US +(1) 760-786-4212
-Why not connect & chat via something other than email ✉️
-📲 Matrix: @elasticdotventures:matrix.org     (best for chat, voice, video)
-🤳Twitter: @brianhorakh 
-🧑‍💻 LinkedIn ask for Skype, Slack or Discord
-http://bit.ly/resume-brianhorakh
 
 
 

@@ -1,6 +1,5 @@
 # 👽 Technology
 
-
     * use advanced software patterns
         * RUST & cargo based stateful control systems
             * highly advanced programming language, specialized for broad range of systems engineering tasks
@@ -27,6 +26,11 @@
         * artificial intelligence 
             * NLU generative reinforcement learning
             * 3d generative design & simulation
-    
+
+# Tools & Libraries Used    
+* citation.js 
+    - Citation.js converts formats like BibTeX, Wikidata JSON and BibJSON to CSL-JSON to convert to other formats like APA, Vancouver, RIS and back to BibTeX.
+    - https://github.com/citation-js/citation-js
+    - https://zenodo.org/record/1476934#.Yp_4EahByBI
 
     

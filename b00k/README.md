@@ -10,22 +10,23 @@ EVERYTHING SHOULD BE MADE AS SIMPLE AS POSSIBLE, BUT NOT SIMPLIER.
 This is the public fungible.farm documentation & planning repository which is hosted at [http://dots.fungible.farm](http://dots.fungible.farm)
 
 Fungible.Farm is difficult since it covers many topics few people anything about.  There are no analogues or parallels made today. 
+The complexity is inherient from aspects of the operating plan necessary to achieve 'waste input, fungible output' with negative-carbon footprint, 
+and 'do no harm' only positive environmental & societal impact. 
+
+Most startups don't begin with such arduous constraints or ambitious goals, and most startups will fail anyway.   Fungible.Farm would rather _fail_ than succeed and persist the harmful & wasteful business models, disposable consumerism, climate change, and the best way for us to become successful is to _do something_ to make a positive impact(s) on the future. 
 
 ## 🛗 The Elevator Pitch
- Cybernetically growing mushrooms using AI & mechantronics to create structural semi-conductors sold using crypto-currency smart-contracts. 
+ Australian cybernetically grown mushrooms & fungi using AI in a _mostly_ mechatronic _lights-out_ wet-lab for continous-flow electro-chemical fabrication of novel graphene substrates & thin film selectively transistive biopolymers.   Green zero-waste negative-carbon-footprint factory operating principally on waste-inputs & green electricity to produce fungible comestibles (mushrooms - targeted for meat-alternatives) & Co2 sequestered soap in addition to energy-storage high-Youngs modulus structural ulta-capacitors.  All simulated and sold using web3 interfaces & crypto-currency smart-contracts with gender-pronoun-yei organizational decentralized cyber-governance. 
 
 This repository will break down the method(s) within the madness.  🤓 
 
+## 🦖 Potential Impact Statement
 
-## 😷 
+Fungible.farm is leveraging 'neo-modern' tech, and also tapping into roughly 1.5 billion years of "lost" evolutionary learning in queendom fungora, where at least 800 million years was done prior to the arrival of mammals. So we're going to produce novel inventions that will reshape your future tomorrow - just wait!   We live in a cellulose driven renewable economy and Fungible.Farm is going to mycologically remediate this planet (and someday terra-form others) with the technology that will be demonstrated. 
 
-Imagine the year is 1792 and you're about to meet an inventor named Eli Whitney.  This inventor is explaining that he's got a machine which can pick-cotton and best of all - it runs on steam so it doesn't require human labor! Understandably, most people will hear about such a machine "Cotton Engine" and say "that's dumb, the old way works perfectly well".  In fact that is what most southern Plantation owners did - they said "Yeah, Nope", and kept farming the old way - using humans was "sufficient" and such new inventions would certainly not displace the old ways of doing things, ultimate this paralleled invention sparked both a civil war and an industrial age, ultimately leading to tractors, agriculture, fertilizer, pretty much all of modern society. 
+Everything in the business plan is green tech, and comes from a waste input, 100% of the outputs are comestible, green, co2 sequested, life-saving applications. Green tech was chosen not for it's impact but for it's ability to scale to planetary size & inpsire young minds about a solar-punk utopian future.  
 
-Now Fungible.farm is leveraging 'neo-modern' tech, and also tapping into roughly 1.5 billion years of "lost" evolutionary learning, where at least 800 million years was done prior to the arrival of mammals. So we're going to produce novel inventions that will reshape your future tomorrow - just wait!   We live in a cellulose driven renewable economy and Fungible.Farm is going to mycologically remediate this planet (and someday others). 
-
-Everything is green tech, and comes from a waste input, 100% of the outputs are comestible, green, co2 sequested, life-saving applications.
-
-The company is intentionally engineered to run sustainably at a carbon deficit (negative footprint).  Fungible.farm is a trans-human poly-social impacting many areas where humanity is presently faltering and unsustainable.  Fungible.farm was designed to be built & shipped (_someday_) to build/run/operate a martian biosphere, of course there aren't parallels on earth! 
+Fungible.farm is intentionally engineered to run sustainably at a carbon deficit (negative footprint).  Fungible.farm incorporates several trans-human poly-social impacting many areas where humanity is presently faltering and unsustainable.  Fungible.farm was designed to be built & shipped (_someday_) to build/run/operate a martian biosphere, of course there aren't parallels on earth! 
 
 Certainly such ambitious goals require a bit of engineering and validation.   However because the systems use mostly artificial intelligence once they are online, it won't be moving a the same pace as your traditional companies do!  (our algorithms don't sleep, they don't need vacations or get sick, they work 7/24 - and they validate crypto-currency so when they aren't learning they are earning!) 
 

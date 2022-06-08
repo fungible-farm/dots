@@ -1,6 +1,13 @@
 # Chitin
 
 
+I hope to commence large scale vegetable bio-chitin cultivation & robotic manufacturing, failing that I will likely resort to natural processes that have been operational for the last ~420 million years. I hope to combine the bio-chitin with other constituents such as/including bioengineered enzymes, thin aerogels & variously doped conductive layers, to create a variety of useful biopolymers with embedded transistors (bio-sensors) with materials which are principally obtained from waste outputs such as household waste, electronics, or alternative mining tailings. 
+ 
+Today the global market for bio-chitin is zero and the marine-chitin global market is < $100m USD globally (made from waste marine arthropod shells using hydrochloric acid).  
+
+ These are all harmful methods & practices I hope to obviate asap, since they are unsustainable and global demand for marine-chitin would be bad for marine life on a planetary scale and my goal is to “do no harm” with the systems I develop. 
+
+
     * myco-chitin processed in synthetic fabrication of novel biopolymer substrates
         * crab & lobster shell - marine chine
         * insect cockroach, beetle claw - bio-chitin
@@ -22,6 +29,13 @@
         * selectively transparent (in some atomic configurations)
             * reported methods for making it transarent by remove opaque ligands
         * 2x strongr than aluminum, 6x stronger than steel strength to weight ratio in some atomic configurations
+
+
+In the past year I have become enamored with sustainable manufacturing processes incorporating lightweight (chitin-based) biopolymers with layered manufacturing to create integrated sensors, electrodes, or other ‘bio-mechatronics’ -- for use in combination with other doped substrates such as laser etched graphene or silicon.  Chitin is similar to keratin and is a 100% renewable alternative to cellulose. Chitin is naturally white or transparent, water impermeable, highly elastic, insulative & fire-resistant building material.  Chitin is well suited for a variety of applications such as replacing bakelite/plastics in PCB’s or binding cellulose or other nano-textiles (similar to epoxy resin) creating “smart fabrics”.  My specific application of interest is developing structural batteries using layered manufacturing with carbon & graphene-based deposition (technically: structural ultra-capacitors that don’t degrade like batteries).  
+
+Chitin, the etymology of the word means “shell”, the material made up of highly stable N-acetylglucosamine glucose bonds that are well suited for a plurality of applications such as aerospace.  Chitin possesses properties that are 6x stronger than steel, 2x stronger than aluminum in strength to weight ratios comparisons.  Chitin is well-positioned for lightweight robotic exoskeletons with material properties identical to those found on its namesake arthropods (crabs, mollusks, etc.).   Chitin (or water-soluble chitosan) is commercially available from a limited number of companies using principally marine waste (stinky crab shells) and is apparently universally processed with environmentally disruptive hydrochloric acid making it suitable for my sustainability goals.  Chitin can also be harvested from vetegal (mushroom) sources using a less popular enzymatic process known as ‘snailase’ which is not considered a ‘commercially viable’ alternative to hydrochloric acid. 
+
+To facilitate this project above I am presently working on an apparatus to robotically extract the gastrointestinal juices of slugs which are enzymatically rather than using hydrochloric acid.  Keep in mind you can cut a snail in half and it will become two snails so this model is very sustainable.
 
 
 
