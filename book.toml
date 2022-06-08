@@ -3,42 +3,43 @@ authors = ["hello@fungible.farm"]
 language = "en"
 multilingual = false
 src = "b00k"
-title = "🍄+🤖=>😘🌍 Fungible.Farm"
+title = "🍄🤖=&gt;😘🌍 Fungible.Farm"
 
-[preprocessor.bib]
-bibliography = "bibliography.bib"
-#zotero-uid = "<a_Zotero_userID>"
+# [preprocessor.bib]
+# bibliography = "bibliography.bib"
+# #zotero-uid = "<a_Zotero_userID>"
 
-[preprocessor.toc]
-command = "mdbook-toc"
+# [preprocessor.toc]
+# command = "mdbook-toc"
 
-# https://mermaid-js.github.io/mermaid/#/
-[preprocessor.mermaid]
-command = "mdbook-mermaid"
-renderer = ["html"]
+# # https://mermaid-js.github.io/mermaid/#/
+# [preprocessor.mermaid]
+# command = "mdbook-mermaid"
+# renderer = ["html"]
 
-[output.html]
-additional-css = ["./mermaid.css", "./mdbook-admonish.css", "./open-in.css"]
-additional-js = ["mermaid.min.js", "mermaid-init.js"]
-git-repository-url = "https://github.com/elasticdotventures/fungiblefarm-site"
+# [output.html]
+# additional-css = ["./mermaid.css", "./mdbook-admonish.css", "./open-in.css"]
+# additional-js = ["mermaid.min.js", "mermaid-init.js"]
+# git-repository-url = "https://github.com/elasticdotventures/fungiblefarm-site"
 
 # # https://ivanceras.github.io/svgbob-editor/
 # # cargo install svgbob_cli
-# [preprocessor.svgbob]
-# text_width = 8.0
-# text_height = 16.0
-# class = "bob"
-# font_family = "arial"
-# font_size = 14.0
-# stroke_width = 2.0
-# # there's using css-variables from theme:
-# stroke_color = "var(--fg)" # see default theme / variables.css
-# background_color = "transparent" # also useful `var(--bg)`
-# # all properties are optional.
+[preprocessor.svgbob]
+command = "cargo run --manifest-path /home/brianh/fungiblefarm-dots/mdbook-svgbob/Cargo.toml"
+text_width = 8.0
+text_height = 16.0
+class = "bob"
+font_family = "arial"
+font_size = 14.0
+stroke_width = 2.0
+# there's using css-variables from theme:
+stroke_color = "var(--fg)" # see default theme / variables.css
+background_color = "transparent" # also useful `var(--bg)`
+# all properties are optional.
 
-[preprocessor.admonish]
-command = "mdbook-admonish"
-assets_version = "1.0.0" # do not edit: managed by `mdbook-admonish install`
+# [preprocessor.admonish]
+# command = "mdbook-admonish"
+# assets_version = "1.0.0" # do not edit: managed by `mdbook-admonish install`
 
 
 
