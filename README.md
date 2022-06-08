@@ -4,6 +4,12 @@
 [http://dots.fungible.farm](http://dots.fungible.farm)
 
 ## my notes
+
+```bash
+ alias ff-rust-musl-builder='docker run --rm -it -v "$(pwd)":/home/rust/src elasticdotventures/ff-rust-musl-builder'
+ ff-rust-musl-builder mdbook build
+```
+
 DOCKER_BUILDKIT=1 docker build -t elasticdotventures/fungiblefarm-dots --build-arg BUILDKIT_INLINE_CACHE=1 .
  docker buildx build --cache-to=user/app:cache .
 
