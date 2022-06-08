@@ -36,22 +36,22 @@ jobs:
 
 
       # docker pull ghcr.io/emk/rust-musl-builder
-      # - name: docker-run-action
-      #   uses: addnab/docker-run-action@v3
-      #   with:
-      #     username: ${{ secrets.DOCKER_USERNAME }}
-      #     password: ${{ secrets.DOCKER_PASSWORD }}
-      #     registry: ghcr.io
-      #     image: ghcr.io/emk/rust-musl-builder
-      #     options: -v ${{ github.workspace }}:/src -e ABC=123
-      #     #image: elasticdotventures/ff-rust-musl-builder
-      #     run: |
-      #       echo "Running Script"
-      #       # alias rust-musl-builder='docker run --rm -it -v "$(pwd)":/home/rust/src elasticdotventures/rust-musl-builder'
-      #       cd /src
-      #       ls -la /src
-      #       sudo mkdir -p ./src/work
-      #       mdbook build -d ./src/work
+      - name: docker-run-action
+        uses: addnab/docker-run-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          registry: ghcr.io
+          image: ghcr.io/emk/rust-musl-builder
+          options: -v ${{ github.workspace }}:/src -e ABC=123
+          #image: elasticdotventures/ff-rust-musl-builder
+          run: |
+            echo "Running Script"
+            # alias rust-musl-builder='docker run --rm -it -v "$(pwd)":/home/rust/src elasticdotventures/rust-musl-builder'
+            cd /src
+            ls -la /src
+            sudo mkdir -p ./src/work
+            mdbook build -d ./src/work
 
 
       # https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-mdbook-rust
