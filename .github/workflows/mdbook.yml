@@ -1,10 +1,16 @@
 
 
+
 name: Setup mdBook with plugins (latest)
 on:
   push:
     branches:
       - main
+
+# 🤓 workflow syntax for github actions:
+# https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idcontainerimage
+#
+
 
 env:
   REGISTRY: ghcr.io
@@ -35,31 +41,32 @@ jobs:
       #    toolchain: stable
 
 
-      # docker pull ghcr.io/emk/rust-musl-builder
-      - name: docker-run-action
-        uses: addnab/docker-run-action@v3
-        with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
-          registry: ghcr.io
-          image: ghcr.io/emk/rust-musl-builder
-          options: -v ${{ github.workspace }}:/src -e ABC=123
-          #image: elasticdotventures/ff-rust-musl-builder
-          run: |
-            echo "Running Script"
-            # alias rust-musl-builder='docker run --rm -it -v "$(pwd)":/home/rust/src elasticdotventures/rust-musl-builder'
-            cd /src
-            ls -la /src
-            sudo mkdir -p ./src/work
-            mdbook build -d ./src/work
+      # # docker pull ghcr.io/emk/rust-musl-builder
+      # - name: docker-run-action
+      #   uses: addnab/docker-run-action@v3
+      #   with:
+      #     username: ${{ secrets.DOCKER_USERNAME }}
+      #     password: ${{ secrets.DOCKER_PASSWORD }}
+      #     registry: ghcr.io
+      #     image: ghcr.io/elasticdotventures/ff-rust-musl-builder
+      #     #image: ghcr.io/emk/rust-musl-builder
+      #     options: -v ${{ github.workspace }}:/src -e ABC=123
+      #     #image: elasticdotventures/ff-rust-musl-builder
+      #     run: |
+      #       echo "Running Script"
+      #       # alias rust-musl-builder='docker run --rm -it -v "$(pwd)":/home/rust/src elasticdotventures/ff-rust-musl-builder'
+      #       cd /src
+      #       ls -la /src
+      #       sudo mkdir -p ./src/work
+      #       sudo mdbook build -d ./src/work
 
 
       # https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-mdbook-rust
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v1
         with:
-          mdbook-version: '0.4.8'
-          # mdbook-version: 'latest'
+          # mdbook-version: '0.4.8'
+          mdbook-version: 'latest'
 
       - run: cargo install mdbook-bib
 
