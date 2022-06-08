@@ -6,6 +6,8 @@
 this is for testing & formatting the documentation generator.
 
 
+{{#cite mdBook}}
+
 \documentclass{article}
 
 \begin{document}

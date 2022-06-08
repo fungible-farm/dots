@@ -1,9 +1,9 @@
 [book]
-authors = ["b"]
+authors = ["hello@fungible.farm"]
 language = "en"
 multilingual = false
 src = "b00k"
-title = "Fungible Farm Thesis"
+title = "🍄+🤖=>😘🌍 Fungible.Farm"
 
 [preprocessor.bib]
 bibliography = "bibliography.bib"
@@ -36,9 +36,9 @@ git-repository-url = "https://github.com/elasticdotventures/fungiblefarm-site"
 # background_color = "transparent" # also useful `var(--bg)`
 # # all properties are optional.
 
-# [preprocessor.admonish]
-# command = "mdbook-admonish"
-# assets_version = "1.0.0" # do not edit: managed by `mdbook-admonish install`
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "1.0.0" # do not edit: managed by `mdbook-admonish install`
 
 
 
