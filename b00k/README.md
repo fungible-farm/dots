@@ -9,62 +9,52 @@ EVERYTHING SHOULD BE MADE AS SIMPLE AS POSSIBLE, BUT NOT SIMPLIER.
 
 This is the public fungible.farm documentation & planning repository which is hosted at [http://dots.fungible.farm](http://dots.fungible.farm)
 
-Fungible.Farm is difficult since it covers many topics few people anything about.  There are no analogues or parallels made today. 
-The complexity is inherient from aspects of the operating plan necessary to achieve 'waste input, fungible output' with negative-carbon footprint, 
-and 'do no harm' only positive environmental & societal impact. 
+* Fungible.Farm is a green-impact research-oriented quasi-commercial poly-disciplinary crypto-native cyber-governance entity.  There are no analogues or parallels in similar companies or methods, Fungible.farm produces cybernetic myco-agriculture systems using sustainable methods informed principally by reproducing uncommercialized academic research.  
 
-Most startups don't begin with such arduous constraints or ambitious goals, and most startups will fail anyway.   Fungible.Farm would rather _fail_ than succeed and persist the harmful & wasteful business models, disposable consumerism, climate change, and the best way for us to become successful is to _do something_ to make a positive impact(s) on the future. 
+* The complexity of the operating plan is necessary to achieve 'waste input, fungible output' with negative-carbon footprint, 
+and 'do no harm' only positive environmental & societal impact while operating trading within a capitalist society using crypto &amp; web3.
+
+* Most startups don't begin with such arduous constraints or ambitious goals, but half-measures &amp; the old-methods persist wasteful anti-patterns, by integrating several pieces of new technology to spawn a post-waste 'solar punk' bio-industrial era & help modern humanity avoid triggering a post-anthropocene epoch.  
 
 ## 🛗 The Elevator Pitch
- Australian cybernetically grown mushrooms & fungi using AI in a _mostly_ mechatronic _lights-out_ wet-lab for continous-flow electro-chemical fabrication of novel graphene substrates & thin film selectively transistive biopolymers.   Green zero-waste negative-carbon-footprint factory operating principally on waste-inputs & green electricity to produce fungible comestibles (mushrooms - targeted for meat-alternatives) & Co2 sequestered soap in addition to energy-storage high-Youngs modulus structural ulta-capacitors.  All simulated and sold using web3 interfaces & crypto-currency smart-contracts with gender-pronoun-yei organizational decentralized cyber-governance. 
 
-This repository will break down the method(s) within the madness.  🤓 
+ Australian geographic, US high-tech cybernetic agriculture methods to cultivate mushrooms & fungi using AI in a _mostly_ mechatronic _lights-out_ wet-lab.  Self-sufficient methods for continous-flow electro-chemical fabrication of turbostratic graphene, ferrous & carbon substrates as fungible commodities and substrates (for use in 3d filaments, conductive inks).  
+ 
+Substrates are additively manufactured 'doped' into thin-film elastic biopolymers to create selectively transistive semiconductor patterns (capacitence, logic gates, electromechanical acuators, etc).  
 
-## 🦖 Potential Impact Statement
+Manufacturing systems are TRIZ/TIPS designed for _small but scalable_ continous operations that individually are zero-waste negative-carbon proof-of-concept prior to superscalar facilities being developed.  (All profit is for sustainable growth && ongoing research, future Mars-tech).   
 
-Fungible.farm is leveraging 'neo-modern' tech, and also tapping into roughly 1.5 billion years of "lost" evolutionary learning in queendom fungora, where at least 800 million years was done prior to the arrival of mammals. So we're going to produce novel inventions that will reshape your future tomorrow - just wait!   We live in a cellulose driven renewable economy and Fungible.Farm is going to mycologically remediate this planet (and someday terra-form others) with the technology that will be demonstrated. 
+Methods & patents proposed operate almost entirely on sustainable or anthropocene remediated waste-inputs to produce:  1.)  fungible comestibles (mushrooms, meat alternatives)  2.) Co2 sequestered soap  &amp; 3.) energy-storage solid-state ultra-capacitors with a high-Youngs modulus for use in washable e-fabrics, construction, and structural applications such as wings, airfoils, drone chassis &amp; robotic exoskeletons.  
+ 
+ ## 🦖 Impact Statement
+
+ Each cybernetic system has one or more sustainable (usually waste) inputs and outputs must be 'fungible' (or have utility value, purpose for another system within fungible.farm).    The ordering & end-user interfaces are described in Web3.0 section.  
+🤓  This repository will break down the method(s) within the madness.   
+
+## 🍄 Queendom Fungora & Fungible.Farm Thesis
+
+Fungible.farm is leveraging 'neo-modern' tech but mostly tapping into roughly 1.5 billion years of "uncommercialized" evolutionary learning in queendom fungora.  For at least 800 million years these magnificient species rules the planet prior to the arrival of Plantae & mammals. 
+
+So we're going to use evolutionary tech from yesterday to produce novel inventions that will reshape your tomorrow - just wait!  
+
+Modern "green" economy is a cellulose driven renewable economy and Fungible.Farm is going to mycologically remediate this planet (and someday terra-form others) with the technology that will be demonstrated.  These methods described are novel, but are informed by experiments done in laboratories and never commercialized. 
 
 Everything in the business plan is green tech, and comes from a waste input, 100% of the outputs are comestible, green, co2 sequested, life-saving applications. Green tech was chosen not for it's impact but for it's ability to scale to planetary size & inpsire young minds about a solar-punk utopian future.  
 
-Fungible.farm is intentionally engineered to run sustainably at a carbon deficit (negative footprint).  Fungible.farm incorporates several trans-human poly-social impacting many areas where humanity is presently faltering and unsustainable.  Fungible.farm was designed to be built & shipped (_someday_) to build/run/operate a martian biosphere, of course there aren't parallels on earth! 
+Fungible.farm is intentionally engineered to run sustainably at a carbon deficit (negative footprint), this is not an accident.  The original ideas were intended to fabricate & support durable highly-resilient biospheres on Mars where is there is NO PETROLEUM.  (🦕 at least as far as we know 😜) and it is equally unlikely that a future mars or lunar colony will run at optimium efficiency & reliability without the systems described herein. 
 
-Certainly such ambitious goals require a bit of engineering and validation.   However because the systems use mostly artificial intelligence once they are online, it won't be moving a the same pace as your traditional companies do!  (our algorithms don't sleep, they don't need vacations or get sick, they work 7/24 - and they validate crypto-currency so when they aren't learning they are earning!) 
+Fungible.farm incorporates several trans-human poly-social impacting many areas where humanity is presently faltering and unsustainable and the only way we're going to get our solar punk utopian future is not going to happen by building a system using the historical anti-patterns & operating methods.  Fungible.farm is built to run 'alongside' capitalism, but not necessarily full embrace it with more altrustic goals than increasing our shareholder dividends - we aren't anti-capitalism, we're simply pro-transhumanism.  
 
-Pronouns, everybody is a "they", or we say "yei".  Fungible.Farm operations are lean on humans, heavy on cognitive algorithms.  Commercial applications to create "profit" will be used for more research and growth, driving costs and creating more novel products over the next decade.  The bigger the organization becomes the more 'green impact' this becomes.  
+Certainly such ambitious goals should require a bit of engineering and validation and that's what we're doing.   However because the systems use mostly artificial intelligence once they are online, when it's onine it won't be moving a the same pace as your traditional companies do!  (our algorithms don't sleep, they don't need vacations or get sick, they work 7/24 - and they validate crypto-currency so when they aren't learning they are earning!)  .. also we don't hire more people we just auto-scale more cloud-resources, operating with the idea that every task 'toil' should only be done once and 'overhead' should be minimized. 
 
-The organization is extremely high-tech &amp; mostly software-driven interface and utilizes a plurality Artificial Intelligence and very few humans.  This is good because humans are dirty animals and vectors for contagion in a 'dark' wet-lab & manufacturing process.  
+Pronouns, everybody is a "they", or we say "yei" as a universal pronoun for all human genders including cyborgs.  Fungible.Farm operations are spares on humans, heavy on cognitive algorithms.  Commercial applications to create "profit" will be used for more research and growth, driving costs and creating more novel products over the next decade.  The bigger the organization becomes the more 'green impact' this becomes, we call this "spore" funding (a single mushroom can produce 16 billion spores, each producing a new & novel fungi depending on the substrate that spore lands on). 
+
+The organization is extremely high-tech &amp; mostly software-driven interface and utilizes a plurality Artificial Intelligence and few humans for overhead.  This is better because humans are bacteria ridden dirty animals and vectors for contagion in a 'dark' wet-lab & manufacturing process, our robotics are easier to santize & sterilize.  
 
 Cybernetics is a discipline of 'systems engineering'.   When engineering software systems it is a series of choices about which standards & methods to choose before the first line of code is written, the system must work "on paper".  Principal research began on the precursor system in 2016 in the US and was subsequently moved to Australia in 2020 during covid.  Small tests & research has been done to further specific intuition on ambiguous areas. 
 
 The outline(s) below are conceptual project outline, components and systems that are in various stages of being built and will need to interoperate.
 
 The initial focus is fast-prototyping & tooling, & software simulation & delivery systems & products.  Presently looking for a place to create a small-scale 'proof of viability' end-to-end system, that will ultimately inform the bigger version (someday). 
-
-# Summary & Overview: 
-
-The core idea(s) of Fungible may seem a bit overwhelming at first glance because it is poly-disciplinary with each mission & goal synergistically supporting eachother.  It is very technologically heavy and it presumes that some research can be reproduced or integrated in ways it has not necessarily been done _yet_.  
-
- The mushrooms are cultivated by robotics (human cultivation is expensive, and a vector for contamination, also humans aren't good at  nano-scale & micro-scale precision fabrication).  100% of present-day mycology is hand-driven, and is perhaps the biggest thing to happen to mushrooms & fungi in the last 800 million years. 
- 
- The mushrooms can be grown for food, or to make products, including novel semi-conductors that are lightweight & high-tensile 'structural energy storage'.  Cybernetics is used to design the systems, and AI is used extensively throughout the business. The Web3 'cyber-governance' business model is a better dojo for AI reinforcement learning.  The 'future' wholesale & retail sales portals will require web3 and the systems are designed for customer visibility.  The nature of 'structural super-capacitors' is perhaps the most ambitious aspect of the project, but the sales portal starts with a simple model of selling "soap" (the kind you wash your hands with), that is mostly environmentally sequestered Co2. 
-
-Few if any of the processes presented here exist "today" or the methods remain on the periphery of 'common knowledge'.  Research is cited where it is available and Fungible.Farm mostly seeks to reproduce research that was not commercialized. 
-
-Fungible.farm includes being 100% to be green-energy powered and have a negative carbon deficit design the Fungi producing Co2 during transpiration & mycogensis. Further, low cost, low emissions PoS (proof of stake) decentralized blockchains and being prepared to quickly scale & stratify production globally if any products become popular enough to warrant such an expansion. 
-
-Fungible.farm uses [TRIZ](TRIZ.md) "Theory of Inventive Problem Solving" using small 'fast-fail' experiments to improve the "luck surface".   Fungible.Farm is intended to operate terrestrially from Australia, but using a US/global anti-fragile business methodology to quickly commercialize biosynthetic research & manufacturing.   
-
-Fungible's TRIZ attempts to sell & commercialize, or give away (for publicity & awareness) research & products during or slightly ahead of the experiment.  
-
-This is a model similar to kick-starter and encourage community participation & awareness of the progression and reward engagement more broadly in STEM including mechatronic agriculture & blockchain. 
-
-
-
-
-_Fungibility_: as a property, of an individual specimen or item, means it is replaceable by another identical item; mutually interchangeable.  In this case methods are designed as black-box functional 'tools' which can be built, interatively tested & refined and perform continous batch or duty-cycle cultivation on Fungi.  Fungible items can be sold. 
-
-This organization also deals with blockchain, smart-contracts, decentralized cyber-governance which is eponymous with both "fungible" coins & "non-fungible" tokens, and plans to launch a brand of SOAP known as "NFTy" mint crypto-coin soap.   The asynchronous chat based cyber-governance protocols are especially well suited for reinforcement learning done within a web3 sales & wholesale/retail experience(s). 
-
-The organizational processes are intended to be super-scalar.
 
 
