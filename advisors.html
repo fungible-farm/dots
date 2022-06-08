@@ -1,0 +1,299 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Advisors - 🍄+🤖&#x3D;&gt;😘🌍 Fungible.Farm</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="./mermaid.css">
+        <link rel="stylesheet" href="./mdbook-admonish.css">
+        <link rel="stylesheet" href="./open-in.css">
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> 👋 Welcome</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="bigpicture.html"><strong aria-hidden="true">1.1.</strong> Executive Summary</a></li><li class="chapter-item expanded "><a href="mission.html"><strong aria-hidden="true">1.2.</strong> Mission</a></li><li class="chapter-item expanded "><a href="org-structure.html"><strong aria-hidden="true">1.3.</strong> Culture</a></li><li class="chapter-item expanded "><a href="advisors.html" class="active"><strong aria-hidden="true">1.4.</strong> Advisors</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ceat.html"><strong aria-hidden="true">1.4.1.</strong> CEAT</a></li></ol></li><li class="chapter-item expanded "><a href="welcome-governance.html"><strong aria-hidden="true">1.5.</strong> Governance</a></li><li class="chapter-item expanded "><a href="welcome-partners.html"><strong aria-hidden="true">1.6.</strong> Partners</a></li></ol></li><li class="chapter-item expanded "><a href="cybernetics.html"><strong aria-hidden="true">2.</strong> 🥰 Cybernetics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="cyber-agriculture-tech.html"><strong aria-hidden="true">2.1.</strong> Agri-Technology</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="cyber-agritech-peak-phosphorous.html"><strong aria-hidden="true">2.1.1.</strong> Peak Phosphorus</a></li></ol></li><li class="chapter-item expanded "><a href="cyber-ai-research.html"><strong aria-hidden="true">2.2.</strong> AI Research</a></li><li class="chapter-item expanded "><a href="cyber-fungibles.html"><strong aria-hidden="true">2.3.</strong> *.Fungible</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="cyber-solarpunk.html"><strong aria-hidden="true">2.3.1.</strong> SolarPunk</a></li><li class="chapter-item expanded "><a href="cyber-robotics.html"><strong aria-hidden="true">2.3.2.</strong> Robotic Exoskeletons</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="mycology.html"><strong aria-hidden="true">3.</strong> 🍄 Mycology</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="myco-chitin.html"><strong aria-hidden="true">3.1.</strong> Chitin</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="myco-accelerated.html"><strong aria-hidden="true">3.1.1.</strong> Accelerated Mycogeneis</a></li><li class="chapter-item expanded "><a href="myco-fungal-genomics.html"><strong aria-hidden="true">3.1.2.</strong> Fungal-Engineering</a></li></ol></li><li class="chapter-item expanded "><a href="myco-fungibles.html"><strong aria-hidden="true">3.2.</strong> *.Fungible</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="myco-comestibles.html"><strong aria-hidden="true">3.2.1.</strong> Comestibles</a></li><li class="chapter-item expanded "><a href="myco-co2-sequestration.html"><strong aria-hidden="true">3.2.2.</strong> Co2 SOAP Sequestration</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="mechatronics.html"><strong aria-hidden="true">4.</strong> 🤖 Mechatronics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mecha-substrates.html"><strong aria-hidden="true">4.1.</strong> Substrates</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="turbostratic-graphene.html"><strong aria-hidden="true">4.1.1.</strong> Magic Angle Graphene</a></li></ol></li><li class="chapter-item expanded "><a href="mecha-hybrid-mfg.html"><strong aria-hidden="true">4.2.</strong> Hybrid Mfg</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.3.</strong> Processing</div></li><li class="chapter-item expanded "><a href="mecha-fungibles.html"><strong aria-hidden="true">4.4.</strong> *.Fungible</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="biosynthetic-semiconductors.html"><strong aria-hidden="true">4.4.1.</strong> Biosynthetic semiconductors</a></li><li class="chapter-item expanded "><a href="structural-ultracapacitors.html"><strong aria-hidden="true">4.4.2.</strong> Structural UltraCapacitors</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="crypto.html"><strong aria-hidden="true">5.</strong> 🕸️ Web3</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="crypto-eth2-validator.html"><strong aria-hidden="true">5.1.</strong> ETH2 Validators</a></li><li class="chapter-item expanded "><a href="crypto-filecoin.html"><strong aria-hidden="true">5.2.</strong> Filecoin Notary</a></li><li class="chapter-item expanded "><a href="crypto-mint.html"><strong aria-hidden="true">5.3.</strong> Smart Contracts</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.4.</strong> Metaverse Commerce</div></li><li class="chapter-item expanded "><a href="web3-governance.html"><strong aria-hidden="true">5.5.</strong> Cyber-Governance</a></li><li class="chapter-item expanded "><a href="candi-date_xyz.html"><strong aria-hidden="true">5.6.</strong> Candi-Date.xyz</a></li><li class="chapter-item expanded "><a href="web3-fungibles.html"><strong aria-hidden="true">5.7.</strong> *.Fungible</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> 🤓 Reference</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="TRIZ.html"><strong aria-hidden="true">6.1.</strong> 🪆 TRIZ/TIPS</a></li><li class="chapter-item expanded "><a href="tech-stack.html"><strong aria-hidden="true">6.2.</strong> 👽 Technology</a></li><li class="chapter-item expanded "><a href="TODO.html"><strong aria-hidden="true">6.3.</strong> 🚀 todo</a></li><li class="chapter-item expanded "><a href="sample.html"><strong aria-hidden="true">6.4.</strong> 🙈🙉🙊</a></li></ol></li><li class="chapter-item expanded "><a href="bibliography.html">Bibliography</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">🍄+🤖&#x3D;&gt;😘🌍 Fungible.Farm</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/elasticdotventures/fungiblefarm-site" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="-advisors"><a class="header" href="#-advisors">🎓 Advisors</a></h1>
+<h1 id="foundersystems-engineer"><a class="header" href="#foundersystems-engineer">Founder/Systems Engineer</a></h1>
+<p>🚀 Brian Horakh
+(Melbourne Australia AEST office hours, US afternoons/evenings only!)
+🦘 AU +(61) 0422 863 313 
+🦅 US +(1) 760-786-4212
+📲 Matrix: @elasticdotventures:matrix.org 
+🤳Twitter: @brianhorakh 
+http://linked.in/brianhorakh
+http://bit.ly/resume-brianhorakh</p>
+<p>I have attended (audit not-for-credit) online classes and consumed the suggested reading lists for a variety of academic programs including MOOCs from MIT, Stanford, CMU, University of London and many others through courses such as Coursera &amp; Udemy. </p>
+<h2 id="-start-the-funding-list"><a class="header" href="#-start-the-funding-list">💱 start the funding list.</a></h2>
+<pre><code>* https://www.mseq.vc/researcher-office-hour
+</code></pre>
+<h2 id="-mechatronics-cybernetics-anu--ceat"><a class="header" href="#-mechatronics-cybernetics-anu--ceat">🤖 Mechatronics, Cybernetics, ANU &amp; CEAT</a></h2>
+<p>Fungible.farm is searching to build, buy or lease a wet-lab for research.</p>
+<p>Small 'scale' simualtions, building the algorithms &amp; machine(s) in simulators here as the research phase (related to tooling, what can be done) is finished, and how it is just wiring &amp; fabrication.</p>
+<p>Presently the area of focus is Australia National University, Canberra
+in the A3 Cybernetics program in conjunction with CEAT (Centre for Entrepenurial Agri-Technology) </p>
+<h1 id="distinguished-academicss"><a class="header" href="#distinguished-academicss">Distinguished Academics(s)</a></h1>
+<ul>
+<li>
+<p>Dr. Oleksii (Alexei) Konashevych
+PhD in Law, Science and Technology | Blockchain | Digital Governance, 
+https://www.linkedin.com/in/oleksii-konashevych-89409042/?originalSubdomain=au#experience</p>
+</li>
+<li>
+<p>Dr. Genevieve Bell 
+School of Cybernetics
+The Australian National University
+https://www.linkedin.com/in/genevievebell/</p>
+</li>
+<li>
+<p>Dr. Volker Hessel
+Professor at University of Adelaide
+Waite Research Institute, APPF
+https://www.linkedin.com/in/volker-hessel-a4a80098/</p>
+<ul>
+<li>where mycology &amp; machine learning =&gt; meet fabrication
+<ul>
+<li>a complete business proposal, which will be mocked as a proof of concept. </li>
+<li>applying to ANU Australia National University Canberra as a future PhD candidate-in-residence in Cybernetics</li>
+<li>requesting collaboration from RMIT &amp; robotics &amp; blockchain, someday aerospace.</li>
+<li>extending an invitation to Volker Hessel @ </li>
+<li>extending an invitation to Matthew Gillingham</li>
+<li>extending an invitation to ARC </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>CEAT ANU</p>
+<ul>
+<li>research trans</li>
+<li>co-working</li>
+</ul>
+</li>
+</ul>
+<p>Prof.  Volker Hessel at the Waite Research Institute in Adelaide has kindly offered to supervise and assist with the electro-chemisty and microfluidics and to let me use his network down there.  I am additionally hoping to reach out to Dr. Oleksii (Alexei) Konashevy </p>
+<pre><code>Oleksii (Alexei) Konashevych
+</code></pre>
+<p>RMIT’s Blockchain Innovation Hub</p>
+<p>Long term, for Fungible.Farm (long term, if/when successful) for scalability I hope to pivot the organization into a Rural Development Corporation - operated as an async-chat Crypto-DAO organizational-self-governance commercial-research-vehicle, providing an Australian 'forkable' template for non-custodial automated-comptroller cyber-governance organization for employing other graduate students.  This is a bit premature, but I want to start by saying this is both a crypto-project and a cybernetics project and a mechatronic mycology project in one package that I've been working on collectively for a few years.   This simple requirement states that I hope to explain certain aspects of my potential role(s) within the university organizational structure - and articulate &quot;the vision&quot; in Australian while not necessarily putting the cart before the horse.  I struggle to speak Australian, but I have a bit of American ambition, so please accept this application / project proposal, and if you are so inclined, consider it for fitment within your organization. </p>
+<h1 id=""><a class="header" href="#"></a></h1>
+<h2 id="-blockchain-rmit"><a class="header" href="#-blockchain-rmit">🕸️ Blockchain, RMIT</a></h2>
+<p>I additionally hope to work with RMIT @ Oleyskii related to the blockchain and contract aspects, through ANU.</p>
+<p>https://www.linkedin.com/in/oleksii-konashevych-89409042/?originalSubdomain=au#experience
+gmail: a.konashevich
+https://t.me/OleksisKo
+https://oleksii.konashevych.com/contacts</p>
+<p>https://www.rmit.edu.au/news/all-news/2021/oct/blockchain-innovation-hub-ranking#:~:text=Blockchain%20Innovation%20Hub%20Director%20Professor,technology%20space%20in%20higher%20education.</p>
+<h1 id="australia"><a class="header" href="#australia">Australia</a></h1>
+<p>Please consider a lot of this is specifically tailored to inform Australian national policy in a plurality of areas simultaneously.   It's designed as a (&quot;giant step forward&quot;), but even if it stumbles, it's designed to &quot;fall-upright&quot;, sort of like a cat, having many lives. </p>
+<p>Australia is a conservative (technically laggard) nation that is presently in the discussion &amp; analysis phase of writing it's web3 crypto &quot;what is legal&quot; laws over the next few years &amp; decades.  These laws are being influenced by incumbent fintech and a few of us &quot;anon&quot; voices who don't necessarily want to see the present-day tyranny of capitalism 'waste' persist. </p>
+<p>Australia is a 'academically informed' technocracy that uses scientific method (evidentiary support) &amp; data-driven decision making.   Australia operates a geographically stratified centralized federal government &amp; sovereign nation.  This process will begin entirely in the academic setting as a cooperative between several universities, and then ultimately will (hopefully) expand into government ministries as a means to educate &amp; inform policy decisions. </p>
+<p>Australia is a technocracy where the academic learning institutions and the national university inform the policy-makers as part of a &quot;convo is national self interest&quot;.   Decentralized governance could have substantial benefits for a country that is geographically stratified over a massive land distance,  roughly the same size in land as the 48 US states, but with 1/12th the population &amp; 12th largest global economy ranked by GDP and a HUGE portion of that historically comes from Coal &amp; rare-earth mineral mining, and so Australia is described the UN/IPCC as a laggard with respect to climate adoption.</p>
+<p>Having an 'environmentally-hostile' policy is a well deserved reputation.  It is a national embarasment for an otherwise highly progressive western society.  It sufficiently embarassed sufficient voters in the last election (about two weeks ago) to overwhemlingly declared national support for green-investments, by electing pro-environment government including several green members who now eager &amp; must move quickly to implement green-technology before they are replaced by the conservatives again (who will then attempt try to undo everything, except decentralized crypto-organizations which are prone to do good, can be difficult to dismantle).  Fungible.farm deals with sequestering carbon into both aerospace grade &quot;biopolymer&quot; construction materials, e-fashion and meat replacements.  (same atomic structure 'chitin' synthetized into different forms using electrochemistry). During the process any Co2 produced is captured and turned into SOAP which I hope to sell at/with/through national retailers for visibility. </p>
+<h1 id="australia-1"><a class="header" href="#australia-1">Australia</a></h1>
+<p>Australia has more potential reasons to benefit from early-adoption of decentralized self-governance of non-custodial (ERC-4626 multi-factor multi-custodial signatory) can obviate many of the forms of 'dodgy' custodial financial malfesiance, reduce risk of accidental compromise of a single bad actor, or well placed hacker attack using smshing, etc.   Despite this upcoming Australian laws are likely to require entirely centralized custodial controls (*through the error of omission). </p>
+<p>Australian citizens, totalling only 24 million already enjoy progressive ideas such as socialized healthcare, ranked-choice 100%-mandatory voting in all federal elections, etc. and so the cybesecurity posture is being designed with the GOAL of someday providing a proof of concept for 'high-security paranoid cybersec' for self governance, but to illustrate how this mechanism can be used to *potentially do future national federal elections, and may attempt to increase adoption for more advanced conceptual ideas within the country but put together in a package that has aspects that nearly every non-technophobic Australian should support.  The nation is extremely agriculture prone, and also relies heavily on guidance from it's centralized federal bueracracy &quot;nanny state&quot;, so nothing happens here without the government being involved - it's quite difficult to introduce new ideas, so I must do this through the schools (that is the defacto mechanism for introducing new ideas, as a PhD candidate with one or more supervisors).  I'm also pushing for non-Australian e-citizenship for companies or persons who want to participate, but initially this is a national project I am presenting to the federal government to inform it's web3.0 strategy (what I call web2d0t99~) .. as a bridge to future web3.0, then web3d0t1 web3d0t11 web3d0t11~ repeating as a path to industry 4.0,  transacting business using smart-contracts with national retailers, and basically listing which organizations &amp; banks, insurance companies declined to work with us because they couldn't &quot;technically&quot; keep up (public identification &amp; shaming of technology laggards as a method of last-resort).   Activist investors can then use this information as one criteria to decide which companies they wish to invest &amp; engage with. </p>
+<p>(NOTE: industry 4.0 which is a term for robotic process automation, that fungible.farm uses, 'dark factory' run by mechantronic cultivation, since humans are a source of contamination for mushrooms, industry 4.0 approach is better optimum approach for cultivation).  Australia has a labor shortage and high labor costs, so robotic cultivation in agriculture, and in this case 'indoor vertical farming' is especially useful since it would allow approximately presently-zoned 427 million hectares of land to be farmed vertically, producing enough food, material &amp; energy by (itself) to fulfill the needs of several earth sized planets -- hopefully approaching encouraging Earth to surpass the Kardashev level 1 boundary in less than a century.</p>
+<p>Australia presently enjoys high crypto-currency as a speculative commodity 'investment' among its citizens, but MOST Australian crypto-adopters presently leave money in exchanges.  Australians like to invest in Australin enterprises, and they have national green 'retirement' super-annuation focused funds that are not crypto-savvy and can't be crypto-savvy until such governance mechanisms are vetted &amp; approved by the bueracracy (which itself operates as an academically informed technocracy).</p>
+<h1 id="structural-ultracapacitors"><a class="header" href="#structural-ultracapacitors">Structural Ultracapacitors</a></h1>
+<p>Here is the short 'why' you should be excited about this for Australia --  more than 90% of present day semi-conductors are made in Taiwan.  Each nation is presently assessing their on dependency in a complex geopolitical world - how to become self-sustainable in semi-conductor manufacturing.   The present day belief is that is assumed to costs billions of dollars to build complex &quot;manufacturing plants&quot; (also called 'nodes' in a semiconductor system design venacular), but has no other overlap to agriculture that I'm aware of.   Presently the only place in Australia I'm aware of that does any type of semiconductive fab is in Adelaide, as a semi-secret CSIRO project to nationally make &quot;TPM' chip's&quot; for defensive military &amp; possibly critical infrastructure applications.   However I am quite sure if CEAT was to approach CSIRO with the simple idea of growing transistive mushrooms for incorporation in cybernetic systems, they may identify many applications. 
+To be clear, my proposed applications are microscale 'durable lightweight solid state biological energy storage' not-necessarily suitable for nanoscale high frequency fabrication (CPU's, etc.), but certainly a flexible, durable TPM chip is conceivable by the end of the decade or possibly much sooner. </p>
+<hr />
+<p>Lunar Agrinomy</p>
+<p>Dear Dr. Volker Hessel,</p>
+<p>I wanted to thank you for the time you spent with me over the holidays.  I reviewed our conversation which I enjoyed greatly.  Thank you for your time. </p>
+<p>Upon consideration of your project related to future lunar agronomics I attempted to modify my own desire to pursue Martian agriculture.</p>
+<p>The broad common areas:
+Similar requirements for closed-biospheres &amp; sustainable tech
+Space Transport is cost prohibitive, lightweight durably shielded equipment
+Absence of petroleum, bacteria, etc. suggest the need to redesign nearly all existing earth manufacturing processes </p>
+<p>It was quite enjoyable to review a variety of papers &amp; conclusions derived principally from the Apollo era missions that covered the composition &amp; stratification of the lunar regolith and more recently confirmed by ESA, blabla. </p>
+<p>The present assumptions about lunar regolith seem straightforward &amp; comprehensively studied.   The lack of water &amp; atmosphere presents itself to me as the largest obstacle towards lunar occupation with self-sufficiency (not reliant on earth) will require some amount of agriculture. </p>
+<p>The relative simplicity of lunar vs martian missions can be staged with considerably shorter timeframes and the moon maintains a consistent distance and synchronous rotational orientation with respect to earth.  A small moon colony &amp; research outpost could be indefinitely supplied from earth with sufficient budget &amp; resources.</p>
+<p>Several feasible mechanisms exist to harvest both hydrogen &amp; oxygen from lunar strata and combine those to generate water.   Ultimately the size of a lunar colony will be limited only by the sponsoring nations ability to either continuously resupply or to pursue self-sufficiency in one or more of the requisite dimensions to support life and eliminate the requirement for ongoing resupply. </p>
+<p>In terms of a lunar biosphere, related to long term occupation the size of the biosphere will require considerations including ability to operate safely under positive pressure and provide a vapor/lock moisture barrier.  Withstanding extreme temperatures, blabla.  In this capacity the ability to harvest solar radiation is simplified, and the potential to utilize lunar materials in proportion to demand. </p>
+<p>The lunar absence of gravity &amp; atmosphere may present a variety of challenges related to manufacturing processes but it’s also possible that these disadvantages could be leveraged as strengths.</p>
+<p>Perovskites 
+https://www.nasa.gov/feature/glenn/2019/building-solar-panels-in-space-might-be-as-easy-as-clicking-print</p>
+<p>Alternatives assessment of perovskite solar cell materials and their methods of fabrication</p>
+<p>https://www.sciencedirect.com/science/article/abs/pii/S1364032120304962
+CH3NH3SnIBr2</p>
+<p>I believe that present NASA plans presume a 100% earth-origin base rather than utilize any materials for lunar construction.   Your project to produce lunar-fertilizer therefore is sufficiently ambitious.   I suspect future plans might include intentionally directing asteroids into a collision on the lunar surface as a means to enrich the lunar regolith for either mining or agricultural purposes.<br />
+Potassium isotopic composition of the Moon
+https://www.sciencedirect.com/science/article/abs/pii/S001670372030274X</p>
+<p>The Apollo era used a variety of old-tech to examine lunar soils and extract minerals.
+The composition of lunar soil in particular to separate the phosphorus may be simplified  (accelerated &amp; performed with less energy) using sonotrodes tuned to the internal resonant frequency of the regolith.   The near absence of gravity suggests that terrestrial processes such as flocculation will be less effective or take considerably longer to accomplish.</p>
+<p>I remain convinced that in the last few years it has become feasible to genetically engineer and cultivate DNA from organisms which are specifically engineered to utilize the high-alkaline lunar soil.   Whatever methods you are presently developing, the synthetic biotechnology approach methods will (in my opinion) demonstrate the most cost-effective mechanism for large scale ‘lunar sustanable’ biosphere construction.</p>
+<p>https://www.researchgate.net/publication/277080168_Are_heterotrophic_and_silica-rich_eukaryotic_microbes_an_important_part_of_the_lichen_symbiosis</p>
+<p>The ability of eukaryotes and particularly extremophiles to formulate novel enzymes which can extract minerals while being subject directly to solar radiation is well documented in species of lichen which could even grow directly on the lunar surface.</p>
+<p>Genetically engineered lichen using approaches such as CRISPR/TALEN and accelerated using either high-voltage stimulation or applications of arc-plasma.</p>
+<p>https://www.researchgate.net/publication/277080168_Are_heterotrophic_and_silica-rich_eukaryotic_microbes_an_important_part_of_the_lichen_symbiosis</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="org-structure.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="ceat.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="org-structure.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="ceat.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="mermaid.min.js"></script>
+        <script type="text/javascript" src="mermaid-init.js"></script>
+    </body>
+</html>

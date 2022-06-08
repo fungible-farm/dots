@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Hybrid Mfg - 🍄+🤖&#x3D;&gt;😘🌍 Fungible.Farm</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="./mermaid.css">
+        <link rel="stylesheet" href="./mdbook-admonish.css">
+        <link rel="stylesheet" href="./open-in.css">
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> 👋 Welcome</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="bigpicture.html"><strong aria-hidden="true">1.1.</strong> Executive Summary</a></li><li class="chapter-item expanded "><a href="mission.html"><strong aria-hidden="true">1.2.</strong> Mission</a></li><li class="chapter-item expanded "><a href="org-structure.html"><strong aria-hidden="true">1.3.</strong> Culture</a></li><li class="chapter-item expanded "><a href="advisors.html"><strong aria-hidden="true">1.4.</strong> Advisors</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ceat.html"><strong aria-hidden="true">1.4.1.</strong> CEAT</a></li></ol></li><li class="chapter-item expanded "><a href="welcome-governance.html"><strong aria-hidden="true">1.5.</strong> Governance</a></li><li class="chapter-item expanded "><a href="welcome-partners.html"><strong aria-hidden="true">1.6.</strong> Partners</a></li></ol></li><li class="chapter-item expanded "><a href="cybernetics.html"><strong aria-hidden="true">2.</strong> 🥰 Cybernetics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="cyber-agriculture-tech.html"><strong aria-hidden="true">2.1.</strong> Agri-Technology</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="cyber-agritech-peak-phosphorous.html"><strong aria-hidden="true">2.1.1.</strong> Peak Phosphorus</a></li></ol></li><li class="chapter-item expanded "><a href="cyber-ai-research.html"><strong aria-hidden="true">2.2.</strong> AI Research</a></li><li class="chapter-item expanded "><a href="cyber-fungibles.html"><strong aria-hidden="true">2.3.</strong> *.Fungible</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="cyber-solarpunk.html"><strong aria-hidden="true">2.3.1.</strong> SolarPunk</a></li><li class="chapter-item expanded "><a href="cyber-robotics.html"><strong aria-hidden="true">2.3.2.</strong> Robotic Exoskeletons</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="mycology.html"><strong aria-hidden="true">3.</strong> 🍄 Mycology</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="myco-chitin.html"><strong aria-hidden="true">3.1.</strong> Chitin</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="myco-accelerated.html"><strong aria-hidden="true">3.1.1.</strong> Accelerated Mycogeneis</a></li><li class="chapter-item expanded "><a href="myco-fungal-genomics.html"><strong aria-hidden="true">3.1.2.</strong> Fungal-Engineering</a></li></ol></li><li class="chapter-item expanded "><a href="myco-fungibles.html"><strong aria-hidden="true">3.2.</strong> *.Fungible</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="myco-comestibles.html"><strong aria-hidden="true">3.2.1.</strong> Comestibles</a></li><li class="chapter-item expanded "><a href="myco-co2-sequestration.html"><strong aria-hidden="true">3.2.2.</strong> Co2 SOAP Sequestration</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="mechatronics.html"><strong aria-hidden="true">4.</strong> 🤖 Mechatronics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mecha-substrates.html"><strong aria-hidden="true">4.1.</strong> Substrates</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="turbostratic-graphene.html"><strong aria-hidden="true">4.1.1.</strong> Magic Angle Graphene</a></li></ol></li><li class="chapter-item expanded "><a href="mecha-hybrid-mfg.html" class="active"><strong aria-hidden="true">4.2.</strong> Hybrid Mfg</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.3.</strong> Processing</div></li><li class="chapter-item expanded "><a href="mecha-fungibles.html"><strong aria-hidden="true">4.4.</strong> *.Fungible</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="biosynthetic-semiconductors.html"><strong aria-hidden="true">4.4.1.</strong> Biosynthetic semiconductors</a></li><li class="chapter-item expanded "><a href="structural-ultracapacitors.html"><strong aria-hidden="true">4.4.2.</strong> Structural UltraCapacitors</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="crypto.html"><strong aria-hidden="true">5.</strong> 🕸️ Web3</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="crypto-eth2-validator.html"><strong aria-hidden="true">5.1.</strong> ETH2 Validators</a></li><li class="chapter-item expanded "><a href="crypto-filecoin.html"><strong aria-hidden="true">5.2.</strong> Filecoin Notary</a></li><li class="chapter-item expanded "><a href="crypto-mint.html"><strong aria-hidden="true">5.3.</strong> Smart Contracts</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.4.</strong> Metaverse Commerce</div></li><li class="chapter-item expanded "><a href="web3-governance.html"><strong aria-hidden="true">5.5.</strong> Cyber-Governance</a></li><li class="chapter-item expanded "><a href="candi-date_xyz.html"><strong aria-hidden="true">5.6.</strong> Candi-Date.xyz</a></li><li class="chapter-item expanded "><a href="web3-fungibles.html"><strong aria-hidden="true">5.7.</strong> *.Fungible</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> 🤓 Reference</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="TRIZ.html"><strong aria-hidden="true">6.1.</strong> 🪆 TRIZ/TIPS</a></li><li class="chapter-item expanded "><a href="tech-stack.html"><strong aria-hidden="true">6.2.</strong> 👽 Technology</a></li><li class="chapter-item expanded "><a href="TODO.html"><strong aria-hidden="true">6.3.</strong> 🚀 todo</a></li><li class="chapter-item expanded "><a href="sample.html"><strong aria-hidden="true">6.4.</strong> 🙈🙉🙊</a></li></ol></li><li class="chapter-item expanded "><a href="bibliography.html">Bibliography</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">🍄+🤖&#x3D;&gt;😘🌍 Fungible.Farm</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/elasticdotventures/fungiblefarm-site" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="hybrid-mfg"><a class="header" href="#hybrid-mfg">Hybrid Mfg</a></h1>
+<p>Development of specialised bio-synthetic Hybrid additive Manufacturing methods &amp; technologies of (mostly) mushrooms &amp; FUNGI in both organic mechatronic cultivation and non-organic electrochemical synthensis/deposition.   Fungible.Farm intentionally begins with &quot;Fungi&quot; and is a 'farm' cultivation system presented as a dark factory &amp; lights-out wet-lab operated entirely by sterile robotics. </p>
+<p>Hybrid additive manufacturing means layers of different materials or method/processes are used at different stages of the bigger process.  The systems to design these rely heavily on artificial intelligence &amp; simulated research to increase the number &amp; accuracy guesses resulting in a difficult to specifically quantify metric called &quot;luck surface&quot;, or ability to formulate, test &amp; demonstrate a workable manufacturing prototype &quot;solution&quot; on the first, second or equivalently early attempt (rather than the 3-5 years per invention, Fungible.farm is seen more like a R&amp;D lab equivalent to Edison or Bell labs, but run using robots, simulations and evolutionary algorithms with reinforcement learning)</p>
+<p>The next part is actually much more difficult, because my project deals with bio-semiconductor fabrication, which itself is a nascent field within a highly specialized emergent field of semiconductors.  Most people who are studying electrical engineering of metamaterials end up in the quantum field effects and whatnot (and I admit, those are super interesting, but it's just not the type of research that can be done outside of academia,  and that makes it more interesting since I know I'm probably the only person with my skills pursuing this, it's unconventional because of the intra-disciplinaryness of the idea).  .. also I will point out that both mushrooms &amp; semiconductors experiments can both be contaminated &amp; damaged by the presence of bacteria from human skin shedding, before you go &quot;there is no reason to put these two ideas together&quot;, so in reality -- robotics are a prequisite to the form of mycological cultivation I'm referring.  The robotics don't need to be state of the art 5nm process, they can be 250nm and be suitable for my needs -- in many cases the 250nm version is more durable 'thicker gauge' that a 5nm version - especially where elasticity is desired). </p>
+<p>We as humans until recently have lacked the tools to even study &amp; classify the amazing skills of mycological organisms, bio-engineering lichen colonies and letting the smallest micro-organisms do the 'heavy' lifting.   I hope these are the types of projects CEAT is interested in, farming with micro-organisms, genetic engineering, etc.   Anybody who is following lab-grown meats - something that less than a decade ago did not exist. 
+Fungible.farm is proposing methods to farm materials that will appear in both next generation 'recyclable' iPhones, drones, solar panels, electric planes, &amp; future space ships. </p>
+<p>As a 'reasonable' rule of thumb, anything semi-conductive can usually also be made transtitive (transistive: means the conductive property can be switched on and off) based on it's shape &amp; arrangement of the semi-conductive material properties (in semiconductor lingo this is called &quot;doping&quot;, but explaining this too much for now, other than additive deposition of the materials allows me to control the the shape &amp; amount of material deposition, such that I expect ultimately to demonstrate transitive properties, after I demonstrate semi-conductive properties.)   My intuition and research (and speaking with experts in these field) suggset both these conclusions are entirely valid &amp; accurate.   So the first step is to demonstrate 1. mycological  conductivity, then 2. myco-capacitiveness, then 3. myco-transitive behaviors (or to do 1, then 2&amp;3 at the same time).   There is potentially MORE diverse &amp; exotic species suitable for next-generation laboratory farms within the Eukaroytic (multi-nucleus) Queendom Fungora that are well suited for this.   Power sources could literally be DC,  inductive charging, phytovolatic, photovoltaic (such as incorporating perovskites), radio-frequency, or even radioactive or cobalt-60 gamma-ray &quot;atomic batteries&quot;.  Obviously I'm not looking to start there, but I want to illustrate the types of experiments that given a decade I intend to pursue provided my health and mind stay intact.   Also it is worth mentioning that I plan to use a combination of silicon &amp; graphene in my projects, as well as other materials incluing zeolites, lithium &amp; other salts, potentially with laser trimming and other stuff that wasn't available to Volta or Linneaus.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="turbostratic-graphene.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="mecha-fungibles.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="turbostratic-graphene.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="mecha-fungibles.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="mermaid.min.js"></script>
+        <script type="text/javascript" src="mermaid-init.js"></script>
+    </body>
+</html>

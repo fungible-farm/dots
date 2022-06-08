@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Smart Contracts - 🍄+🤖&#x3D;&gt;😘🌍 Fungible.Farm</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="./mermaid.css">
+        <link rel="stylesheet" href="./mdbook-admonish.css">
+        <link rel="stylesheet" href="./open-in.css">
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> 👋 Welcome</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="bigpicture.html"><strong aria-hidden="true">1.1.</strong> Executive Summary</a></li><li class="chapter-item expanded "><a href="mission.html"><strong aria-hidden="true">1.2.</strong> Mission</a></li><li class="chapter-item expanded "><a href="org-structure.html"><strong aria-hidden="true">1.3.</strong> Culture</a></li><li class="chapter-item expanded "><a href="advisors.html"><strong aria-hidden="true">1.4.</strong> Advisors</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ceat.html"><strong aria-hidden="true">1.4.1.</strong> CEAT</a></li></ol></li><li class="chapter-item expanded "><a href="welcome-governance.html"><strong aria-hidden="true">1.5.</strong> Governance</a></li><li class="chapter-item expanded "><a href="welcome-partners.html"><strong aria-hidden="true">1.6.</strong> Partners</a></li></ol></li><li class="chapter-item expanded "><a href="cybernetics.html"><strong aria-hidden="true">2.</strong> 🥰 Cybernetics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="cyber-agriculture-tech.html"><strong aria-hidden="true">2.1.</strong> Agri-Technology</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="cyber-agritech-peak-phosphorous.html"><strong aria-hidden="true">2.1.1.</strong> Peak Phosphorus</a></li></ol></li><li class="chapter-item expanded "><a href="cyber-ai-research.html"><strong aria-hidden="true">2.2.</strong> AI Research</a></li><li class="chapter-item expanded "><a href="cyber-fungibles.html"><strong aria-hidden="true">2.3.</strong> *.Fungible</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="cyber-solarpunk.html"><strong aria-hidden="true">2.3.1.</strong> SolarPunk</a></li><li class="chapter-item expanded "><a href="cyber-robotics.html"><strong aria-hidden="true">2.3.2.</strong> Robotic Exoskeletons</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="mycology.html"><strong aria-hidden="true">3.</strong> 🍄 Mycology</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="myco-chitin.html"><strong aria-hidden="true">3.1.</strong> Chitin</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="myco-accelerated.html"><strong aria-hidden="true">3.1.1.</strong> Accelerated Mycogeneis</a></li><li class="chapter-item expanded "><a href="myco-fungal-genomics.html"><strong aria-hidden="true">3.1.2.</strong> Fungal-Engineering</a></li></ol></li><li class="chapter-item expanded "><a href="myco-fungibles.html"><strong aria-hidden="true">3.2.</strong> *.Fungible</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="myco-comestibles.html"><strong aria-hidden="true">3.2.1.</strong> Comestibles</a></li><li class="chapter-item expanded "><a href="myco-co2-sequestration.html"><strong aria-hidden="true">3.2.2.</strong> Co2 SOAP Sequestration</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="mechatronics.html"><strong aria-hidden="true">4.</strong> 🤖 Mechatronics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mecha-substrates.html"><strong aria-hidden="true">4.1.</strong> Substrates</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="turbostratic-graphene.html"><strong aria-hidden="true">4.1.1.</strong> Magic Angle Graphene</a></li></ol></li><li class="chapter-item expanded "><a href="mecha-hybrid-mfg.html"><strong aria-hidden="true">4.2.</strong> Hybrid Mfg</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.3.</strong> Processing</div></li><li class="chapter-item expanded "><a href="mecha-fungibles.html"><strong aria-hidden="true">4.4.</strong> *.Fungible</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="biosynthetic-semiconductors.html"><strong aria-hidden="true">4.4.1.</strong> Biosynthetic semiconductors</a></li><li class="chapter-item expanded "><a href="structural-ultracapacitors.html"><strong aria-hidden="true">4.4.2.</strong> Structural UltraCapacitors</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="crypto.html"><strong aria-hidden="true">5.</strong> 🕸️ Web3</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="crypto-eth2-validator.html"><strong aria-hidden="true">5.1.</strong> ETH2 Validators</a></li><li class="chapter-item expanded "><a href="crypto-filecoin.html"><strong aria-hidden="true">5.2.</strong> Filecoin Notary</a></li><li class="chapter-item expanded "><a href="crypto-mint.html" class="active"><strong aria-hidden="true">5.3.</strong> Smart Contracts</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.4.</strong> Metaverse Commerce</div></li><li class="chapter-item expanded "><a href="web3-governance.html"><strong aria-hidden="true">5.5.</strong> Cyber-Governance</a></li><li class="chapter-item expanded "><a href="candi-date_xyz.html"><strong aria-hidden="true">5.6.</strong> Candi-Date.xyz</a></li><li class="chapter-item expanded "><a href="web3-fungibles.html"><strong aria-hidden="true">5.7.</strong> *.Fungible</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> 🤓 Reference</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="TRIZ.html"><strong aria-hidden="true">6.1.</strong> 🪆 TRIZ/TIPS</a></li><li class="chapter-item expanded "><a href="tech-stack.html"><strong aria-hidden="true">6.2.</strong> 👽 Technology</a></li><li class="chapter-item expanded "><a href="TODO.html"><strong aria-hidden="true">6.3.</strong> 🚀 todo</a></li><li class="chapter-item expanded "><a href="sample.html"><strong aria-hidden="true">6.4.</strong> 🙈🙉🙊</a></li></ol></li><li class="chapter-item expanded "><a href="bibliography.html">Bibliography</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">🍄+🤖&#x3D;&gt;😘🌍 Fungible.Farm</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/elasticdotventures/fungiblefarm-site" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="smart-contracts"><a class="header" href="#smart-contracts">Smart Contracts</a></h1>
+<p>The blockchain aspects/benefits add a plurality of benefits that <em>hopefully</em> warrant the additional complexity:
+* this is envisioned as an ERC-1155 &amp; 4626 Tokenized Vault contract
+* paranoid cyber-security in a decentralized cyber-governance, multi-signatory governance &amp; oversight
+* simplified scalable accounting &amp; books &amp; schedules are &quot;open&quot; records, well suited to audit &amp; compliance tasks can be automated with reports and do not incur significant administrative overhead. 
+* non-custodial smart-contract governed token vaults eliminate a variety of problems associated with custodial governance (constrains dodgy actors, eliminates phishing, smshing to steal company funds, etc)
+* this project has an additional goal of seeking &amp; encouraging new forms of regulatory oversight &amp; governance control within the agency as a form of technocratic &amp; corporate engagement as a part of a broader trans-humanist socialization goal. 
+* async chat is easy/simple interface for cognitive agents incentivization &amp; gamified reinforcement learning
+* web3 ordering interface &amp; manufacturing smart-contracts is 'best interface' for such tasks
+* pre-sales &amp; consumer-voting can <em>potentially</em> be performed to gauge market demand for such products and perform data-driven decision making. 
+* crypto aspects providing 'gating barrier to entry' at the beginning to hopefully restrict demand (the goal isn't to be profitable for profits!, it's to perform profitable research)
+* crypto aspects such as 'governance tokens' provide additional forms of liquidity &amp; fund-raising in addition to traditional banks/VC's in a fair and level playing field. 
+* potential for 'generative' NFT's provide gamifaction for consumer oriented comestibles (food) or surfactants such as soap, but also NFT's could also be serial numbers for proof of ownership or position in a manufacturing queue. 
+* whereas fungible substrates (such as turbostratic graphene) can be represented as commodities reserved in the decentralized ledger. 
+* intended(s) to provide an example non-custodial decentralized organizational governance for research &amp; development organizations. 
+* by operating blockchain network validators &amp; notary nodes can also earn more crypto and provide a sustainable well-spring of internal funding, by providing services to the network it uses in a symbiotic relationship.</p>
+<p>The goals for the ERC-4626 is 'academic &amp; ministerial invitations' to participate in Web3 federal infrastructure &amp; services such as a national crypto-vault, wallet crypto-asset cybersecurity, and the goal is for fungible.farm to provide some of those services to our governance board, so they can protect the organization, but the governance board will be (ultimately) high level policy makers &amp; ministers.  Ideally setting the bar &quot;very high&quot; in setting technical controls to prevent dodgy actors from performing rug-pulls. </p>
+<p>For those who are invited to join Fungible.farm (and receive governance tokens) -- those are are initially academics, then minsters, and the goal will be ultimately to let the federal government exert their sovereign authority with technical controls (in the ERC-1155 contract) by establishing a industry standard identity mechanism (i.e. an ERC20 wallet) and publish that as a sovereign regulator (initially this will be performed by a quorum of universities, who then hand over control to regulators <em>someday</em> symbolically in exchange for the government signing the tokens &amp; agreeing to bond the organization against fiduciary misconduct and it is hopeful that by having strong technical controls (as part of a national solidity #include library) that these types of organizations become more common, versus the antiquated ERC20 (even with multi-signatory custodial controls, which themselves are exceptionally uncommon in Australia due to technical complexity).  The academics inform the fungible.farm policy and the ministerial regulators will ultimately issue land-use grants, bonds &amp; legislatively review + approve 'special use' mechanisms for decentralized what in Australian would be described as (non-custodial) 'cyber-governance' model as a means to inform policy. </p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="crypto-filecoin.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="web3-governance.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="crypto-filecoin.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="web3-governance.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="mermaid.min.js"></script>
+        <script type="text/javascript" src="mermaid-init.js"></script>
+    </body>
+</html>

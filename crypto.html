@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>🕸️ Web3 - 🍄+🤖&#x3D;&gt;😘🌍 Fungible.Farm</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="./mermaid.css">
+        <link rel="stylesheet" href="./mdbook-admonish.css">
+        <link rel="stylesheet" href="./open-in.css">
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> 👋 Welcome</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="bigpicture.html"><strong aria-hidden="true">1.1.</strong> Executive Summary</a></li><li class="chapter-item expanded "><a href="mission.html"><strong aria-hidden="true">1.2.</strong> Mission</a></li><li class="chapter-item expanded "><a href="org-structure.html"><strong aria-hidden="true">1.3.</strong> Culture</a></li><li class="chapter-item expanded "><a href="advisors.html"><strong aria-hidden="true">1.4.</strong> Advisors</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ceat.html"><strong aria-hidden="true">1.4.1.</strong> CEAT</a></li></ol></li><li class="chapter-item expanded "><a href="welcome-governance.html"><strong aria-hidden="true">1.5.</strong> Governance</a></li><li class="chapter-item expanded "><a href="welcome-partners.html"><strong aria-hidden="true">1.6.</strong> Partners</a></li></ol></li><li class="chapter-item expanded "><a href="cybernetics.html"><strong aria-hidden="true">2.</strong> 🥰 Cybernetics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="cyber-agriculture-tech.html"><strong aria-hidden="true">2.1.</strong> Agri-Technology</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="cyber-agritech-peak-phosphorous.html"><strong aria-hidden="true">2.1.1.</strong> Peak Phosphorus</a></li></ol></li><li class="chapter-item expanded "><a href="cyber-ai-research.html"><strong aria-hidden="true">2.2.</strong> AI Research</a></li><li class="chapter-item expanded "><a href="cyber-fungibles.html"><strong aria-hidden="true">2.3.</strong> *.Fungible</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="cyber-solarpunk.html"><strong aria-hidden="true">2.3.1.</strong> SolarPunk</a></li><li class="chapter-item expanded "><a href="cyber-robotics.html"><strong aria-hidden="true">2.3.2.</strong> Robotic Exoskeletons</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="mycology.html"><strong aria-hidden="true">3.</strong> 🍄 Mycology</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="myco-chitin.html"><strong aria-hidden="true">3.1.</strong> Chitin</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="myco-accelerated.html"><strong aria-hidden="true">3.1.1.</strong> Accelerated Mycogeneis</a></li><li class="chapter-item expanded "><a href="myco-fungal-genomics.html"><strong aria-hidden="true">3.1.2.</strong> Fungal-Engineering</a></li></ol></li><li class="chapter-item expanded "><a href="myco-fungibles.html"><strong aria-hidden="true">3.2.</strong> *.Fungible</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="myco-comestibles.html"><strong aria-hidden="true">3.2.1.</strong> Comestibles</a></li><li class="chapter-item expanded "><a href="myco-co2-sequestration.html"><strong aria-hidden="true">3.2.2.</strong> Co2 SOAP Sequestration</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="mechatronics.html"><strong aria-hidden="true">4.</strong> 🤖 Mechatronics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mecha-substrates.html"><strong aria-hidden="true">4.1.</strong> Substrates</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="turbostratic-graphene.html"><strong aria-hidden="true">4.1.1.</strong> Magic Angle Graphene</a></li></ol></li><li class="chapter-item expanded "><a href="mecha-hybrid-mfg.html"><strong aria-hidden="true">4.2.</strong> Hybrid Mfg</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.3.</strong> Processing</div></li><li class="chapter-item expanded "><a href="mecha-fungibles.html"><strong aria-hidden="true">4.4.</strong> *.Fungible</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="biosynthetic-semiconductors.html"><strong aria-hidden="true">4.4.1.</strong> Biosynthetic semiconductors</a></li><li class="chapter-item expanded "><a href="structural-ultracapacitors.html"><strong aria-hidden="true">4.4.2.</strong> Structural UltraCapacitors</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="crypto.html" class="active"><strong aria-hidden="true">5.</strong> 🕸️ Web3</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="crypto-eth2-validator.html"><strong aria-hidden="true">5.1.</strong> ETH2 Validators</a></li><li class="chapter-item expanded "><a href="crypto-filecoin.html"><strong aria-hidden="true">5.2.</strong> Filecoin Notary</a></li><li class="chapter-item expanded "><a href="crypto-mint.html"><strong aria-hidden="true">5.3.</strong> Smart Contracts</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.4.</strong> Metaverse Commerce</div></li><li class="chapter-item expanded "><a href="web3-governance.html"><strong aria-hidden="true">5.5.</strong> Cyber-Governance</a></li><li class="chapter-item expanded "><a href="candi-date_xyz.html"><strong aria-hidden="true">5.6.</strong> Candi-Date.xyz</a></li><li class="chapter-item expanded "><a href="web3-fungibles.html"><strong aria-hidden="true">5.7.</strong> *.Fungible</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> 🤓 Reference</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="TRIZ.html"><strong aria-hidden="true">6.1.</strong> 🪆 TRIZ/TIPS</a></li><li class="chapter-item expanded "><a href="tech-stack.html"><strong aria-hidden="true">6.2.</strong> 👽 Technology</a></li><li class="chapter-item expanded "><a href="TODO.html"><strong aria-hidden="true">6.3.</strong> 🚀 todo</a></li><li class="chapter-item expanded "><a href="sample.html"><strong aria-hidden="true">6.4.</strong> 🙈🙉🙊</a></li></ol></li><li class="chapter-item expanded "><a href="bibliography.html">Bibliography</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">🍄+🤖&#x3D;&gt;😘🌍 Fungible.Farm</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/elasticdotventures/fungiblefarm-site" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="crypto-native-organization"><a class="header" href="#crypto-native-organization">Crypto Native Organization</a></h1>
+<p>It sought to articulate a vision explains alignment with Web3.0 &amp; Climate Tech question and
+describes using cyber-governance as means to promote &amp; perform cybersecurity research using
+non-custodial blockchains virtual machine operated smart-contracts &amp; crypto-asset coin &amp; 
+token mint co. </p>
+<p>Conceptually, this will operate a variety of environmental remediation using waste-inputs
+Co2 sequestration into SOAP &amp; bio-polymer conductive fabrics &amp; mechatronic cultivation of mushrooms. </p>
+<p>Additionally there is a crypto-job placement &amp; recruiting engine that gamifies &amp; simplifies
+finding better jobs for technical people. </p>
+<ul>
+<li>
+<p>GIT - a verison control system allowing collaborative editing &amp; publishing of text documents &amp; program codes. </p>
+</li>
+<li>
+<p>TRIZ &quot;Theory of Inventive Problem Solving&quot;
+https://en.wikipedia.org/wiki/TRIZ</p>
+</li>
+<li>
+<p>Myco - Mycology:
+https://en.wikipedia.org/wiki/Mycology</p>
+</li>
+<li>
+<p>Chitin:
+https://en.wikipedia.org/wiki/Chitin</p>
+</li>
+<li>
+<p>Cybernetics:
+https://en.wikipedia.org/wiki/Cybernetics
+https://openai.com/dall-e-2/</p>
+</li>
+<li>
+<p>Blockchain Governance</p>
+<ul>
+<li>DAO [Decentralized Autonomous Organization]
+https://en.wikipedia.org/wiki/Dao_(disambiguation)
+https://future.com/building-and-running-a-dao-why-governance-matters/</li>
+<li>ERC-1155 MULTI-TOKEN STANDARD
+https://ethereum.org/en/developers/docs/standards/tokens/erc-1155/</li>
+<li>ERC-4626 TOKENIZED VAULT STANDARD
+https://ethereum.org/en/developers/docs/standards/tokens/erc-4626/</li>
+<li>Ethereum
+https://en.wikipedia.org/wiki/Ethereum</li>
+<li>Polygon L2 (built on Ethereum)
+https://polygon.technology/</li>
+</ul>
+</li>
+</ul>
+<h1 id="technology-terminology"><a class="header" href="#technology-terminology">Technology Terminology</a></h1>
+<pre><code>* &quot;Finger&quot; RFC 742, Originally written in 1971, and published in December 1977 as an interface to the `name` and `finger` programs for automated status reports &amp; identity verification. 
+    * https://en.wikipedia.org/wiki/Finger_(protocol)
+
+* Web1.0:  Old-fashion 'early web' web-pages generated by servers, including Software-as-a-Service models principally those built in Server-side rendering tech such as Perl, Java, Python, PHP or Ruby. Mostly technologies invented before the millenium. 
+
+* Web2.0: The world wide web, since the codification of HTML3, Javascript ECMAScript ~5 &amp; CSS 1 (the &quot;holy trinity&quot;, allowing reactive web-apps with liquid layouts), frequently using a middleware REST or GraphQL API tier, CI/CD dev/ops &amp; agile TDD methods, and requiring enabling-technologies &amp; &quot;better methods&quot; that could not have exist prior to the millenium.  
+    * most companies &amp; federal agencies in Australia presently have a hybrid of Web1.0 &amp; Web2.0 technology, even for greenfield projects. 
+
+* Web2dot99~: THIS PROPOSAL a policy informative strategy 'special use' case, minimal web3.0 
+    * a web2.0 approach to cyber-governance
+    * Uses Finger &amp; DNS protocol(s) for publication &amp; security of ERC20 wallets related to sovereign regulatory tasks for Web 3.0
+    * Fun to say &quot;give crypto the finger&quot;, &quot;bi-directional fingering&quot;, amusing parlance. 
+    * many creative idiomatic methods to describe key exchange, offering a finger, accepting a finger, consenual fingering. 
+    * Proposes 'finger on the button or trigger' voluntary sovereign government bueracratic administrative policy controls (suitable for Australia, a conservative techno-laggard society) to describe the role regulators play. 
+
+* Web3.0: Any web or app which could not exist/be built or operate without blockchain smart-contracts, wallets, crypto-coins &amp; tokens as one or more requisite 'enabling technology' to the business, collectively the foundations for the slightly ambigious future-&quot;metaverse&quot;
+
+* Web3dot1: implemented policies, finalized deliverable 'standard use'
+</code></pre>
+<p>Respectively I am working on a prototype Fungible.Farm with a 'today' strategy that is Web2d0t99~ and Web3d0t1 as my present day &amp; designing the future operational governance technical governance controls for my projects. </p>
+<p>Several aspects are presently aspirational but are informed by TRIZ / TIPS method to have a larger-than-expected luck surface <em>in Australia</em> because of how the ideas will be presented to 'regular' non-web3 blockchain people where this might be their first interaction with a DAO. This is <em>especially</em> expected to be True with ministerial regulators and non-technical agri-science advisors.  Ultimately the organization is/will be funded by me and future investors are all consumers of the products placing pre-orders for allocations (which is conceptually perhaps easier to understand &amp; explain)  ... less web3.0 more kickstarter at the web2d0t99~ stage. </p>
+<p>I would call this &quot;Decentralized Australian Organization&quot;, part of a broader strategy  Webd0t299~ (a joke: the step before Web 3.0). - it's not a conventional DAO and it wouldn't presume to call itself AustraliaDAO but it might <em>someday</em> aspirationally produce an open-source artificate a web3d0t1 &quot;forkable template&quot;, targeting a pluraity of future web 3.1 -- and those crypto-code artifacts will remain, even a failure of this project, a subsequent project could,  by it's nature of web3d0t1 existance, use it as a template &amp; guide (perhaps what <em>NOT</em> to do),  and this will inform national federal policy for the worlds 12th largest economy to some degree, and invent new less cellulose-is-the-only-renewable-tech &quot;mushroom&quot; cultivation CO2 sequestration, and &quot;spore&quot; [instead of seed] funded.   By targeting web 2.99 &amp; web 3.1 the goal is to land somewhere just ahead of the web3.0 space, this is a future project that will likely take 3-5 years to be fully realized. </p>
+<p>The goals of Fungible.Farm are trans-humanist cryptographic blockchain smart-contracts for internal cyber-governance for several reasons summarized later and in more detail in [./crypto.md].  This method specifically seeks to avoid &amp; mitgate the most undesirable &quot;crypto-anarchy&quot; aspects of cyber-governance aligned to accentuate the postive geographic distance nullifying aspects of decentralized governance. </p>
+<p>Presently Australia is mostly encouraging blockchain as decentralized ledgers with entirely centralized custodial control structures and the goal of this project is NOT to mimic or encourage that bad behavior.  The rules they are proposing are pretty bad, written by old-school non-technical fintech regulators - which will negatively impact community &amp; not-for-profit research organizations by (*for example) requiring decentralized crypto-governance organizations to be ISO27001 compliant (huge cost, and not well suited for crypto-orgs, but it is how old web2.0 banks operate and they are writing the rules, so this project is seeking an exemption).   But also - regulators can't regulate what they don't understand or know exists, and some of the policy they are proposing is really exceptionally short-sighted (both in climate tech, and crypto-blockchain governance) and web3 when applied correctly can be incredibly disruptive especially in the &quot;its here, and now you must deal with it, but in a civil &amp; polite way&quot; as a means to influence &amp; inform good policy decisions on big topics related to cross chain atomic swaps (between ETH2 L1, polygon L2, solana, using polkadot) as a poly-chain &quot;web3.1 reference implementation&quot;, and ideally Australian 'sovereign bond' backed (even if you hack it, it will fork, sort of 'voluntary safety in crypto' that Australians organizations might prefer versus the more traditional crypto-anarchy approach that is 'the norm' globally - at least I hope to make a more peaceful &amp; secure version here in Australia and the whole project is designed with optics &amp; community engagement for both children &amp; adults.  Ideas for future services might include crypto-insurance &amp; national cyber-safety guidelines, helping to develop &amp; curate things of that nature, by putting the tips inside/on the Co2 SOAP packaging &quot;NFTy soap&quot; from Fungible.Farm</p>
+<p>I am presently, *in conjuction with a few others from my network &amp; cooperatives - but 'my' project,  includes research towards developing a (*potentially) human life saving, petroleum industry disruptive, mechatronic cultivation &amp; synthesization of fungi based biopolymers &amp; related agriculture manufacturing (fungible.farm).    The organization is being established to govern &amp; approve  the research objectives using web3 decentralized governance as an experiment within the academic instutions to inform policy within the technocratic federal administration.   I.e. it's producing real tangible effects .. initially by selling Co2 SOAP (the cleaning kind) but ultimately many forms of bio-polymers which are specialized, produced in a bio-friendly way, and I hope will enjoy popularity in a plurality of commercial applications.  (Mushrooms exhale Co2 during their mycellial growth stage, plants can use the Co2, or we can put it into Soap and sequester it, the plants inhale the SOAP and fungi consumes the wood as part if it's growth, ultimately the soap is washed down the drain where is it sequestered in the earth.  But making things with the lightweight myco-fabrics, myco-packaging will allow the business to scale rapidly and consume several forms of green-waste and producing everything from meat-replacing comestibles &amp; construction materials.</p>
+<p>The crypto-governance aspect is a &quot;success in failure&quot; (less-wrong, anti-fragile) approach that *hopefully can only create concurrent positive impact (in success &amp; failure, more in success, but even in failure, it's negative emissions), if any products are made at all ever, it will only sequester carbon, and the machine for that is already built &amp; proven by a canadian firm who is keen to the AU market. ;-)  .. so it's mostly self-sufficient on day #1.  but the goal of fungible.farm is to bring &amp; demonstrate these types of technology into Australia and it's goal is to work across the various groups who would be interested in this type of technology, going forward.</p>
+<p>Mushrooms have many applications, in waste-remediation, especially the way Fungible.farm is intentionally cultivating them.   I won't focus on that, I'll focus on the crypto-aspects since I know whoever is reading this should speak crypto. ;-) </p>
+<p>Which [as proposed] will operate as an ERC1155 &amp;  ERC4626 DAO with Vault/Time &amp; Multi-Signatory Smart-Contract &quot;Lock&quot; Controls as part of what (*I aspirationally intend) will be a nationally recognized (sovereign real-estate investment trust, federal government recognized joint venture/cooperative with ANU, and assisting the AU Treasury Office, ASIC, financial crypto regulators with proof-of-concept) - that is funded (initially, nominally) by my own research endowment.    It takes longer to explain it than it will take those organizations to approve &amp; implement it. ;-)  I can't build my part until they agree to participate.</p>
+<p>I am not seeking FUTRDao funds or would not be inclined to vote/recuse on such proposals if there was any interest in alignment.    But effectively it's for making more FUTRDaos in Australia as RDC's (which themselves are a unique form of investment cooperative, pre-dating Web3 by decades).  I could also suggest that Fungible.Farm be issued FUTRDao governance token(s) could be placed into the ERC4626 non-custodial wallet (vault) of fungible.farm smart contract in the future.   By crypto-standards this is all pretty 'best-practice' but that isn't how things are presently done in Australia. </p>
+<p>The Fungible.farm &quot;cooperative research&quot; organization internally operates an ETH2 becaon-chain altrusitic validator (running the network's it requires to operate, a symbiotic relationship), and potentially I *aspirationally hope to be approved as an filecoin/ipfs, (also as as a secure-notary), following that helium is in an incubation stage.  Both should generate some nominal amounts of sustainable income suitable for self-writing grants &amp; scholarships.  It is &quot;profit for growth &amp; sustainability&quot;, all products made &amp; sold have some sort of beneficial outcome. I get a lot of inspiration from Dr. Bronners Soap (if you are familiar with that brand).</p>
+<p>I plan to file regulatory paperwork with the AU government, &quot;Research Development Corps&quot; are a special type of 'academic governance', quasi-governement agency, and request they issue a backed by federal sovereign bond land-use lease permit, 
+i.e. asking the government to recognize it's soveriegn authority to regulate the central crypto wallet, &amp; helping federal crypto-regulators understand their role(s) in custodial governance of the organization.<br />
+The project takes a long view with regard to 'tooling' for operational efficiency, with the intention of producing an open-source nationally acceptable DAO organizational &quot;ASIC approved&quot; charter that are &quot;forkable&quot; with streamlined regulatory/setup &amp; auto-filing, &quot;audit us&quot; cybersecurity mechanism, and hackathons for finding bugs and building the system within schools to provide grants to both Australian and international graduates (as a way to export Australian culture globally) </p>
+<p>What I am proposing with the Fungible.Farm DAO is a voluntary form of federally cooperative / 'special use permit' for cyber-governance (that probably only makes sense in Australia, but it is the worlds 12th largest economy and #1 coal usage per capita, citizens would like to decarbonize their economy but is stuck in the past, and desperately needs more &quot;future&quot; industries, this can help!)</p>
+<p>The controls built into the contract assigning roles as the national univerities &amp; eventual federal level policy makers to inform them on web3 governance.  as a means to mostly let the technocracy see how one of these organizations might work &amp; produce useful cyber-governance artifacts (forkable code repositories) for the national federal technocracy, but funded by selling SOAP and Mushroom biopolymers made using Cybernetics to Australians through the national university.</p>
+<p>The mint SOAP + NFT is a gift (i.e. it's something inexpensive we can give away as gifts as a tangible reminder - swag, that is useful), it's a mostly carbon, you wash with it, it sequesters carbon <em>hopefully</em> from coal plants and at least from my Co2 generating mushroom farm.  and so it aligns with the clean &amp; &quot;green&quot; messaging, blabla.  it's easy path to onboard, introduce NFT's, etc.   but all very Australian dialogue &amp; policy centric.  so a lot of the technical aspects will be obscured for those who don't care and just want to buy the products, at least on a wholesale level, will need to use crypto and issue crypto-purchase orders, smart-contracts, etc..  (i.e. I'm planning to manage all the vendors using smart-contracts and if they don't want to sell my products I will go directly to consumers &amp; small independent grocers) .. so it's green consumerism, and it's presented as a federal research project and so everybody is invited and only those who don't participate should have FOMO.</p>
+<p>As established as a Research Development Corporation to demonstrate &amp; form a national (legally compliant) template for organizational non-custodial decentralized governance.  [A lot of Australian here, basically informing and influence national Australian blockchain policy &amp; adoption of everyday people].</p>
+<p>Additionally there is a minor carbon sequestration project at the outset in the form of SOAP (with NFT's printed on it, sold in AU stores with cybersecurity &amp; web3 onboarding tips).  This is an organizational aspect of part of a PhD in the Cybernetics at the University of Australia)(ANU) <em>and</em> concurrent Digital Transition / Blockchain Governance at RMIT which is presently still in early review stages being presented &amp; discussed in conjunction with CEAT (Centre Entrepenurial Agri-Technology).</p>
+<p>(But the purpose of CEAT is to help regulators evaluate technology on it's merits)</p>
+<p>At least presently this is getting most traction by explaining how Australia needs to invest heavily in decentralized blockchain &amp; especially smart-contracts as a means to remain globally competitive &amp; self-sufficient and ultimately collaborate with other southern ocean partners such as New Zealand, etc. who I hope will be equally inclined to join the project sometime in the next decade. </p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="structural-ultracapacitors.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="crypto-eth2-validator.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="structural-ultracapacitors.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="crypto-eth2-validator.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="mermaid.min.js"></script>
+        <script type="text/javascript" src="mermaid-init.js"></script>
+    </body>
+</html>
