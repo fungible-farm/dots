@@ -79,7 +79,7 @@ jobs:
 
       - run: cargo install mdbook-admonish
 
-      - run: cargo install --git git@github.com:elasticdotventures/mdbook-svgbob.git mdbook-svgbob
+      - run: cargo install --git http://github.com/elasticdotventures/mdbook-svgbob.git mdbook-svgbob
 
       - run: mdbook build -d ./docs
 

@@ -32,5 +32,5 @@
     - Citation.js converts formats like BibTeX, Wikidata JSON and BibJSON to CSL-JSON to convert to other formats like APA, Vancouver, RIS and back to BibTeX.
     - https://github.com/citation-js/citation-js
     - https://zenodo.org/record/1476934#.Yp_4EahByBI
+    - https://doi.org/10.1186/s13750-021-00232-0
 
-    
