@@ -16,4 +16,5 @@ To explain TRIZ in a 'twitter sized' soundbite:  TRIZ is how the Russians were a
 
 
 # anti-fragile.
+* https://fronterablog.com/thinking-in-bets/
 
