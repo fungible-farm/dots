@@ -26,7 +26,7 @@ git-repository-url = "https://github.com/elasticdotventures/fungiblefarm-site"
 # # https://ivanceras.github.io/svgbob-editor/
 # # cargo install svgbob_cli
 [preprocessor.svgbob]
-# command = "cargo run --manifest-path /home/brianh/fungiblefarm-dots/mdbook-svgbob/Cargo.toml"
+#command = "cargo run --manifest-path /home/brianh/fungiblefarm-dots/mdbook-svgbob/Cargo.toml"
 text_width = 8.0
 text_height = 16.0
 class = "bob"

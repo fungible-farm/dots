@@ -56,3 +56,5 @@ graph TD;
     `----------------------------------------------------------------------------------'
 ```
 
+https://docs.opencollective.com/help/contributing/documentation/style-guide
+

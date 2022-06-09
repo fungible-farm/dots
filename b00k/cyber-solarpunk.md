@@ -12,3 +12,10 @@ The technology is designed to be “sold in Ikea” safe & end-user friendly and
 
 I hope to demonstrate a 100% sustainable “mars-colonization” scalable-manufacturing that can be replicated using only sunlight and limited water.   Please note, in all cases these are not technologies I developed, rather these were developed and academically reported but never commercialized -- frequently due to a lower cost, less sustainable alternative being available. 
 
+
+https://link.medium.com/ozbdmG7hh8
+
+https://i.redd.it/1j4wfw8jdtf41.jpg
+https://bluelabyrinths.com/2022/01/10/from-cyberpunk-to-solarpunk-technics-and-the-cities-of-the-future/
+https://www.reddit.com/r/solarpunk/comments/f64044/what_exactly_is_the_solarpunk_aesthetic/
+https://link.medium.com/ozbdmG7hh8
