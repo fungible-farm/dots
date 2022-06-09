@@ -1,5 +1,23 @@
 # Chitin
 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5094803/
+https://www.ox.ac.uk/news/2021-10-08-anti-cancer-drug-derived-fungus-shows-promise-clinical-trials
+https://www.statnews.com/2021/11/09/largest-psilocybin-trial-finds-psychedelic-effective-treating-serious-depression/
+https://kylegabriel.com/projects/2021/09/mushroom-cultivation-automation.html
+https://patents.google.com/patent/CN104586732A/en
+https://bnrc.springeropen.com/articles/10.1186/s42269-019-0105-y
+https://www.frontiersin.org/articles/10.3389/fcimb.2020.00028/full
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2817921/
+https://www.frontiersin.org/articles/10.3389/fbioe.2019.00243/full#T3
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7073968/
+http://kylegabriel.com/projects/
+https://grocycle.com/how-to-set-up-a-low-tech-mushroom-farm/
+https://scitechdaily.com/engineered-bacteria-convert-captured-carbon-dioxide-into-valuable-chemicals-for-fuels-fabric-and-cosmetics/amp/
+https://www.sciencedirect.com/science/article/abs/pii/S1369702121004077
+https://improvemushroomcultivation.com/how-to-sterilize-mushroom-substrate-without-a-pressure-cooker/
+https://www.australiangeographic.com.au/topics/science-environment/2022/02/the-future-is-fungi/
+https://www.nasdaq.com/articles/mushrooms%3A-the-next-big-thing-in-environmentally-friendly-packaging-and-construction
+
 
 I hope to commence large scale vegetable bio-chitin cultivation & robotic manufacturing, failing that I will likely resort to natural processes that have been operational for the last ~420 million years. I hope to combine the bio-chitin with other constituents such as/including bioengineered enzymes, thin aerogels & variously doped conductive layers, to create a variety of useful biopolymers with embedded transistors (bio-sensors) with materials which are principally obtained from waste outputs such as household waste, electronics, or alternative mining tailings. 
  

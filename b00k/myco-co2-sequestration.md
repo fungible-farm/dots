@@ -34,5 +34,4 @@ The internal AI design system as proposed is expected to theorize & design machi
 Ultimately a single system for any scale, sort of "automated shipyard" except it's growing mushrooms and the containers aren't nearly as bit (at first).  And the output is Co2 SOAP & coffee-reclaimed flash-Graphene 2d carbon which is conductive and can be used in recycled plastic filaments, threads, and ink.   It can also *potentially* be deposited in superconductive patterns and agents role is to find the most superconductive pattern over a series of generations, discovery by generative design & analysis operated on a (nominal cost) pay-to-play virtual game-based simulation algorithms & model generator is the pre-sales engine and interactivy (collaboratively human-agent) designed models. 
 
 
-
-
+https://constructionphysics.substack.com/p/where-are-the-robotic-bricklayers?s=r

@@ -19,3 +19,5 @@
 # Law2 (legal advisor)
     * https://docs.google.com/document/d/1EsNTnk8UkI5RClK_rjv8HR5oQO7b3mYKMaH_pSPpuT4/edit
 
+https://victorsanner.nl/azure/customvision/2022/04/04/run-your-azure-function-as-a-docker-container.html
+

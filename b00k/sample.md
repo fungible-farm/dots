@@ -5,6 +5,9 @@
 
 <!-- chapter_1.md -->
 
+* https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/
+
+
 this is for testing & formatting the documentation generator.
 
 
