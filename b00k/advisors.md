@@ -182,3 +182,9 @@ https://www.researchgate.net/publication/277080168_Are_heterotrophic_and_silica-
 
 
 
+enquire@mogu.bio
+https://twitter.com/mogumycelium
+https://www.ted.com/talks/suzanne_lee_why_biofabrication_is_the_next_industrial_revolution?utm_source=twitter.com&utm_medium=social&utm_campaign=tedspread
+* https://www.linkedin.com/in/maxparasol/?originalSubdomain=au
+* https://cointelegraph.com/news/docklands-dao-plan-to-help-melbourne-precincts-recover-from-the-pandemic
+* https://rmitblockchain.io/
