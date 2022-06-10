@@ -8,5 +8,6 @@ The Fungible.farm organizational structure is designed around interfacing with t
 I.e. every test, even in failure, is improving the agent for a future-customer facing version.  Ultimately having an agent which can generate digital twins of organisms, simulate processes (to predict outcomes), then accept customer orders, and issue bill of materials, mechantronic manufacturing (including periodic continuity/progress tests), assembly and shipping instructions and keep the client informed during the entire process with the option to let the customer "abort" the process.
 
 
+https://nvlabs.github.io/eg3d/
 
 

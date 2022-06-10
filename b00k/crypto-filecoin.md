@@ -12,6 +12,27 @@ https://github.com/filecoin-project/notary-governance/discussions/527
 * https://www.coindesk.com/price/filecoin/
 
 
+
+    Oceania's currently only notary has about 30% of DataCap left
+
+    https://github.com/filecoin-project/notary-governance
+
+
+    * https://github.com/filecoin-project/lotus
+    * https://github.com/ChainSafe/forest
+
+    - https://filecoin.io/provide/
+    - https://docs.filecoin.io/store/filecoin-plus/
+    * https://observablehq.com/@starboard/spro
+
+    1. AU provider, in Sydney
+    28.41tb rank #361
+    96% uptime .. https://filrep.io/?search=f0773157 
+
+
+https://github.com/filecoin-project/notary-governance/tree/main/notaries#overview
+
+
 ## 
 * impact@ffdweb.org
 * https://ffdweb.org/awards
