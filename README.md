@@ -11,17 +11,28 @@ auto-update diagrams, and adapt & track changes using a source code version cont
 
 ## 🗣️ Giving Feedback Making/Requesting Changes
 
+![We will be relentless in our pursuit for perfection. We won't ever be perfect - but in the process we will achieve greatness.](images/quote-we-will-be-relentless-in-our-pursuit-for-perfection-we-won-t-ever-be-perfect-but-in-vince-lombardi-82-57-29.jpg)
+
+
 To request notifications and/or edit/improve can be done via github.com tools & methods are explained below.
 
  please either open an issue or submit a PULL request for review. 
  
- Issues are NOT tracked, PULL request are.  If you are with an organization and would like to be completely removed from the document and no longer considered for planning/review then please open an issue so we have a record and be expected to provide a means to verify your identity & entitled authority to make such a request. 
+ Issues are NOT tracked, PULL requests by individuals are conferred contributor status and therefore require an IP license assignment.  If you are with an organization and would like to be completely removed 'wiped' from our plans please open an issue so we have a record and be expected to provide a means to verify your identity &amp; authorization to make such a request.   Please note we will maintain a file & record of all such removal requests as a matter of public record related to the fungible.farm organization. 
+ 
+ Please note GIT histories & mistakes are immutable, so we cannot remove the changes from historical versions and all requests may be challenged on the grounds of AU [Right to freedom of opinion and expression](https://www.ag.gov.au/rights-and-protections/human-rights-and-anti-discrimination/human-rights-scrutiny/public-sector-guidance-sheets/right-freedom-opinion-and-expression#)
 
- Please note this repository will automatically track contributors if you want to submit PULL requests please open an issue first. 😘
+Every effort is made to provide accurate and truthful information related to the disposition and aspirational nature of this project. 
+
+The goal(s) of fungible.farm include doing our bit to make humanity better and if we are not aligned and if you're asking us to remove your org from consideration, let's talk first -- we'd certainly much rather be cooperating and seeking to correct mistakes or misconceptions.  
+
+Please note this repository will automatically track contributors if you want to submit PULL requests please open an issue first. 😘
 
 ## ⚖️ Transparency &amp; Confidentiality, Ethics
 
-This is an example of Transparent Organizational Planning.
+Fungible.Farm hopes to operate as a Transparent Organizational Planning.
+
+Nothing is ever perfect, rather 
 
 HOWEVER because some of the patents have not been filed (and won't be filed until the machines are built & fully tested), the information contained herein is still intended to be sufficiently vague enough that it doesn't disclose specific methods beyond citing papers & providing a reference for the subsequent patent applications as the utility of the inventions which will be assigned.  Significant contributions to design and questions should be addressed separately and may require participants in such Q&A sessions to accept CONTRIBUTOR roles and potential references/inclusion in future citations &amp; named inventors.
 
