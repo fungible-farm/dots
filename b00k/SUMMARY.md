@@ -42,8 +42,10 @@
     - [*.Fungible](./web3-fungibles.md)
 
 - [🤓 Reference]()
-    - [Advisors](./advisors.md)
-        - [CEAT](./ceat.md))
+    - [Seeking Advisors](./advisors.md)
+        - [ANU Cybernetics](./advisors/anu/cybernetics.md)
+        - [Dr. Genevieve Bell](./advisors/anu/ceat-info.md)
+        - [CEAT](./advisors/anu/ceat.md)
     - [🪆 TRIZ/TIPS](./TRIZ.md)
     - [👽 Technology](./tech-stack.md)
     - [🚀 todo](./TODO.md)
