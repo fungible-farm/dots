@@ -4,7 +4,9 @@
 [http://dots.fungible.farm](http://dots.fungible.farm)
 
 
-Dots.fungible.farm is the repo for fungible.farm documentations & technical specification "dots" (like docs, but more detailed). 
+Dots.fungible.farm is the repo for fungible.farm documentations & technical specification "dots" (like docs, but more detailed).
+
+You are about to read about adding or making changes, suggesting revisions to the dots repo. 
 
 Fungible.Farm uses a high degree of anti-toil automata & deterministic build process control to maintain technical specifications,
 auto-update diagrams, and adapt & track changes using a source code version control system known as git & hosted by an organization known as [github.com](http://github.com) and this is our way of introducing the topic to version-control neophytes who are not software developers.
@@ -32,7 +34,7 @@ To request notifications and/or edit/improve can be done via github.com tools & 
 
 Every effort is made to provide accurate and truthful information related to the disposition and aspirational nature of this project. 
 
-The goal(s) of fungible.farm include doing our bit to make humanity better and if we are not aligned and if you're asking us to remove your org from consideration, let's talk first -- we'd certainly much rather be cooperating and seeking to correct mistakes or misconceptions.  
+The goal(s) of fungible.farm include doing our bit to make humanity better and if we are not aligned and if you're asking us to remove your org from consideration, let's talk first -- we'd certainly much rather be cooperating and keen to correct mistakes or misconceptions.  
 
 Please note this repository will automatically track contributors if you want to submit PULL requests please open an issue first. 😘
 
@@ -40,18 +42,26 @@ Please note this repository will automatically track contributors if you want to
 
 Fungible.Farm hopes to operate as a Transparent Organizational Planning.
 
-Nothing is ever perfect, rather 
+Nothing is ever perfect, rather WIP means "WIP" in progrss and "DRAFT" refers to anything aspiration in nature. 
 
-HOWEVER because some of the patents have not been filed (and won't be filed until the machines are built & fully tested), the information contained herein is still intended to be sufficiently vague enough that it doesn't disclose specific methods beyond citing papers & providing a reference for the subsequent patent applications as the utility of the inventions which will be assigned.  Significant contributions to design and questions should be addressed separately and may require participants in such Q&A sessions to accept CONTRIBUTOR roles and potential references/inclusion in future citations &amp; named inventors.
+HOWEVER because some patents have not been filed (and won't be prosecuted until the machines are built & fully tested & optimized), the information related to future patent methods herein is still intended to be sufficiently vague enough that it doesn't disclose beyond citing papers & providing a reference for the subsequent patent applications as the utility of the inventions which will be assigned.
+
+This serves to act as a defensive mechanism related to future patent challenges for patents that may NEVER be filed. 
+
+Significant contributions to design and questions should be addressed separately and may require participants in such Q&A sessions to accept CONTRIBUTOR roles and potential references/inclusion in future citations &amp; named inventors.
+
+The nature of the internal system within Fungible.Farm contains generative artificial intelligence algorithms G/AI - not "General AI", and constrained into narrow domains & use cases. 
 
 Future plans to release NLU "natural language understanding" AI chat/ops in near future versions is coming with regard to cognitive planned and GIThub provides a "Source of Truth" for [fungible.farm](http://fungible.farm) will reference and incorporate artifacts derived from contents of this document for aligning interactive chatbots, cognitive agents, in machine learning methods incorporation attention & reinforcement learning (GAN/RL). 
 
-##  The http://dots.fungible.farm Content
+##  The http://dots.fungible.farm Layout
+
+🤓: The purpose of d0ts publishing tool is to automate toil explained by [Google SRE Chapter 5 - Eliminating Toil](https://sre.google/sre-book/eliminating-toil/).
+
+
+All markdown is in the [b00k](/b00k) sub-dir, and [SUMMARY.md](/b00k/SUMMARY.md) provides a map to the left hand navigation on [http://dots.fungible.farm](http://dots.fungible.farm)
 
 Citations are stored in [BIBTEX JSON](/b00k/bibliography.bib) and may be converted from DOI using the [cite-doi.sh](./cite-doi.sh) tool.
-
-🤓: One major reason for using a publishing tool is to automate toil explained by [Google SRE Chapter 5 - Eliminating Toil](https://sre.google/sre-book/eliminating-toil/).
-
 
 The dots content is stored in [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) with 
 [Mermaid](https://mermaid-js.github.io/mermaid/#/) for charts & graphs
@@ -61,7 +71,7 @@ and
 
 🐧  Git was originally written by Linus Torvalds the inventor & spiritual leader of Linux as a way to coordinate the actions of millions of developers globally working productively on a single project.   Linux runs approximately 96.3% of the top 1 million Internet servers use Linux today and Linux is built with Git.  Fungible.farm using GIT & this [http://github.com/fungible-farm/dots](Dots) repo as a source of truth gives the organization automation super-powers which obviates the need to hire persons in high-low low-automata roles such an [RPA](https://www.cio.com/article/227908/what-is-rpa-robotic-process-automation-explained.html) "robotic process automation" prone popular with ["Silicon valley"](https://www.imdb.com/title/tt2575988/) organizations.  Git is one of many tactical advantages built into the project. 
 
-🦘 : DEAR AUSTRALIANS: The git software was popularized in corporations globally by an Australian company known as [Atlassian](https://www.atlassian.com/git/tutorials/what-is-git), which at a valuation of $65b USD is the [largest Australian tech company](https://www.spaceship.com.au/learn/what-are-australias-biggest-tech-companies/), more than 2x larger than the next closest competitor Afterpay. 🐨  Atlassian birthed the abomindable GIT SPRINT/SCRUM planning tool known as [JIRA](https://www.atlassian.com/software/jira) that is notorious for "top/down" non-agile waterfall-prone organizational 'time-boxed' structures that usually generate bad undocumented non-literate code. 🤮 Australians and more generally [APAC](https://www.devopsinstitute.com/global-perspective-of-devops-particularly-in-the-apac-j-region-with-dheeraj-nayal-e11/) are found in every survey to be late adopters of Git software such that more people in the corporate world "know JIRA" than "know GIT", and that their [Atlassian Confluence](https://www.atlassian.com/software/confluence) does far-less and requires paid-per-user licensing whereas this fungible.farm mdbook tool is build on free & open software that would cost hundreds of dollars per month per user that this 'dots' software & build actions does for free.  [Mike Cannon Brookes, Atlassian Founder](https://en.wikipedia.org/wiki/Mike_Cannon-Brookes) &amp; [Grok Ventures](https://fundcomb.com/funds/grok-ventures) which does visionary level impact investments and is therefore somebody with whom I have immense respect.  But an investment from Grok toward Fungible.Farm the organization is perhaps the only circumstance where I would organizationally consider using Atlassian Products (if the licenses were free). 😜   If you are an organization which uses Atlassian Confluence and/or JIRA can be integrated with Github as a remote and it should *mostly* work fine. 
+🦘 : DEAR AUSTRALIANS: Did you knows git software was popularized in corporations globally by an Australian company known as [Atlassian](https://www.atlassian.com/git/tutorials/what-is-git), which at a valuation of $65b USD is the [largest Australian tech company](https://www.spaceship.com.au/learn/what-are-australias-biggest-tech-companies/), more than 2x larger than the next closest competitor Afterpay. 🐨  Atlassian birthed the abomindable GIT SPRINT/SCRUM planning tool known as [JIRA](https://www.atlassian.com/software/jira) that is notorious for "top/down" non-agile waterfall-prone organizational 'time-boxed' structures that usually generate bad undocumented non-literate code. 🤮 Australians and more generally [APAC](https://www.devopsinstitute.com/global-perspective-of-devops-particularly-in-the-apac-j-region-with-dheeraj-nayal-e11/) are found in every survey to be late adopters of Git software such that more people in the corporate world "know JIRA" than "know GIT", and that their [Atlassian Confluence](https://www.atlassian.com/software/confluence) does far-less and requires paid-per-user licensing whereas this fungible.farm mdbook tool is build on free & open software that would cost hundreds of dollars per month per user that this 'dots' software & build actions does for free.  [Mike Cannon Brookes, Atlassian Founder](https://en.wikipedia.org/wiki/Mike_Cannon-Brookes) &amp; [Grok Ventures](https://fundcomb.com/funds/grok-ventures) which does visionary level impact investments and is therefore somebody with whom I have immense respect.  But an investment from Grok toward Fungible.Farm the organization is perhaps the only circumstance where I would organizationally consider using Atlassian Products (if the licenses were free). 😜   If you are an organization which uses Atlassian Confluence and/or JIRA can be integrated with Github as a remote and it should *mostly* work fine. 
 
 The 'dots' publishing engine is [mdbook](https://rust-lang.github.io/mdBook/), with [toc](https://github.com/badboy/mdbook-toc) [admonish "material design for mdbook"](https://tommilligan.github.io/mdbook-admonish/) and [svgbob](https://ivanceras.github.io/svgbob-editor/) for diagrams & illustrations, and at a certain point it's probably inevitable that either [MathJax](https://rust-lang.github.io/mdBook/format/mathjax.html) and/or Latex [1](https://latex-cookbook.net/) [2](https://www-cs-faculty.stanford.edu/~knuth/lp.html) will also *likely* to appear in future versions as well as a PUBLISH TO PDF at end of epoch "work period" for [arxiv.org](https://arxiv.org/) & [DOI](https://www.doi.org/registration_agencies.html) *someday* 🤞. 
 
