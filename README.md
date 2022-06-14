@@ -29,8 +29,8 @@ Citations are stored in [BIBTEX JSON](/b00k/bibliography.bib) and may be convert
 The dots content is stored in [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) with 
 [Mermaid](https://mermaid-js.github.io/mermaid/#/) for charts & graphs
 and 
-[OpenSCad](https://openscad.org/) [CadQuery](https://cadquery.readthedocs.io/en/latest/) for parametric geometry as code, as well as [RUST.🦀](https://github.com/rust-lang/rust), [Typescript.🦄](https://www.typescriptlang.org/), [Python+Poetry.🐍](https://python-poetry.org/) &amp; poly-lingua [WASM.🔮](https://webassembly.org/)   all of which have are built in [git.🐙](https://www.atlassian.com/git/tutorials/what-is-git) & hosted by [github.com](http://github.com), as well as compositional automation in a not presently simplified
-[Literate Programming](https://en.wikipedia.org/wiki/Literate_programming) methodology. 
+[OpenSCad](https://openscad.org/) [CadQuery](https://cadquery.readthedocs.io/en/latest/) for parametric geometry as code, as well as [RUST.🦀](https://github.com/rust-lang/rust), [Typescript.🦄](https://www.typescriptlang.org/), [Python+Poetry.🐍](https://python-poetry.org/) &amp; poly-lingua [WASM.🔮](https://webassembly.org/)   all of which have are built in [git.🐙](https://www.atlassian.com/git/tutorials/what-is-git) & hosted by [github.com](http://github.com), as well as compositional automation in a _not presently simplified_ approach toward
+[Literate Programming](https://en.wikipedia.org/wiki/Literate_programming). 
 
 🐧  Git was originally written by Linus Torvalds the inventor & spiritual leader of Linux as a way to coordinate the actions of millions of developers globally working productively on a single project.   Linux runs approximately 96.3% of the top 1 million Internet servers use Linux today and Linux is built with Git. 
 
