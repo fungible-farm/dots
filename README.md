@@ -9,9 +9,17 @@ Dots.fungible.farm is the repo for fungible.farm documentations & technical spec
 Fungible.Farm uses a high degree of anti-toil automata & deterministic build process control to maintain technical specifications,
 auto-update diagrams, and adapt & track changes using a source code version control system known as git & hosted by an organization known as [github.com](http://github.com) and this is our way of introducing the topic to version-control neophytes who are not software developers.
 
-To request notifications and/or edit/improve can be done via github.com tools of which are widely covered, or please open an issue and please note this repository will automatically track contributors. 
+## 🗣️ Giving Feedback Making/Requesting Changes
 
-## Transparency &amp; Confidentiality, Ethics
+To request notifications and/or edit/improve can be done via github.com tools & methods are explained below.
+
+ please either open an issue or submit a PULL request for review. 
+ 
+ Issues are NOT tracked, PULL request are.  If you are with an organization and would like to be completely removed from the document and no longer considered for planning/review then please open an issue so we have a record and be expected to provide a means to verify your identity & entitled authority to make such a request. 
+
+ Please note this repository will automatically track contributors if you want to submit PULL requests please open an issue first. 😘
+
+## ⚖️ Transparency &amp; Confidentiality, Ethics
 
 This is an example of Transparent Organizational Planning.
 
