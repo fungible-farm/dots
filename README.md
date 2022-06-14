@@ -20,7 +20,15 @@ To request notifications and/or edit/improve can be done via github.com tools & 
  
  Issues are NOT tracked, PULL requests by individuals are conferred contributor status and therefore require an IP license assignment.  If you are with an organization and would like to be completely removed 'wiped' from our plans please open an issue so we have a record and be expected to provide a means to verify your identity &amp; authorization to make such a request.   Please note we will maintain a file & record of all such removal requests as a matter of public record related to the fungible.farm organization. 
  
- Please note GIT histories & mistakes are immutable, so we cannot remove the changes from historical versions and all requests may be challenged on the grounds of AU [Right to freedom of opinion and expression](https://www.ag.gov.au/rights-and-protections/human-rights-and-anti-discrimination/human-rights-scrutiny/public-sector-guidance-sheets/right-freedom-opinion-and-expression#)
+ Please note due to ISO9001 GIT histories & therefore mistakes are immutable, so we cannot remove the incorrect information from historical tracked & controlled versions other than to issue a retraction and apology (if requested).  Requests to have information removed may be challenged on the grounds of AU [Right to freedom of opinion and expression](https://www.ag.gov.au/rights-and-protections/human-rights-and-anti-discrimination/human-rights-scrutiny/public-sector-guidance-sheets/right-freedom-opinion-and-expression#) or US [First Amendment](https://constitution.congress.gov/constitution/amendment-1/) or by a lower-bar a petitioner may cite why such content is incorrect or violates one or more principles within any of the  codes of conduct voluntarily adopted & broadly adhered to by Fungible.Farm & governance: 
+ * [ISO9001:2015 Quality Management Systems](https://academic.oup.com/intqhc/article/30/6/486/4953356)
+ * [IETF RFC1087 Ethics &amp; The Internet](https://datatracker.ietf.org/doc/html/rfc1087)
+ * [IETF Experiment Ethics & Privacy](https://www.ietf.org/blog/experiment-ethics-and-privacy/)
+ * [GIThub.com Codes of Conduct](https://docs.github.com/en/rest/codes-of-conduct)
+ * [Microsoft Code of Conduct](https://opensource.microsoft.com/codeofconduct/)
+ * [PECB ISO27001 ISO22301 Cybersecurity, responsible disclosure](https://pecb.com/en/pecb-code-of-ethics)
+ * [Association for Computing Machinery Code of Ethics](https://www.acm.org/code-of-ethics)
+ * [Australian Institute of Company Directors Membership Code of Conduct](https://www.aicd.com.au/content/dam/aicd/pdf/about/about-our-governance/Code%20of%20Conduct%20September%202005.pdf)
 
 Every effort is made to provide accurate and truthful information related to the disposition and aspirational nature of this project. 
 
