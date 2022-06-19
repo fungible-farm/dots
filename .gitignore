@@ -1,6 +1,8 @@
 node_modules/
 
-# auto publishing directory
+# auto publishing directory 
 book/
+
 ris/
 yarn.lock
+

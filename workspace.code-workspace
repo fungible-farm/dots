@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../fungiblefarm-private"
+		},
+		{
+			"path": "../fungiblefarm-site"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"makefile.extensionOutputFolder": "./.vscode"
+	}
+}
