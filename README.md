@@ -93,6 +93,17 @@ The 'dots' publishing engine is [mdbook](https://rust-lang.github.io/mdBook/), w
 
 * further "bot automation" for things like calendaring, contacting, etc. 
 
+
+---
+TODO: admonish
+ ```admonish warning
+    A beautifully styled message.
+    ```
+
+---
+
+
+
 ## @b's notes related to build this repo
 
 

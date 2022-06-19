@@ -1,4 +1,9 @@
-# mdbook server path/to/book -p 8080 -i 127.0.0.1 -a 192.168.1.100
+# mdbook serve
+# mdbook build
+# advanced:
+#   mdbook server path/to/book -p 8080 -i 127.0.0.1 -a 192.168.1.100
+# https://phaiax.github.io/mdBook/format/config.html
+
 [book]
 authors = ["hello@fungible.farm"]
 language = "en"
@@ -19,9 +24,11 @@ command = "mdbook-mermaid"
 renderer = ["html"]
 
 [output.html]
-additional-css = ["./mermaid.css", "./mdbook-admonish.css", "./open-in.css"]
+additional-css = ["./mermaid.css", "./mdbook-admonish.css", "./open-in.css", "././mdbook-admonish.css"]
 additional-js = ["mermaid.min.js", "mermaid-init.js"]
 git-repository-url = "https://github.com/elasticdotventures/fungiblefarm-site"
+google-analytics = ""
+theme = "my"
 
 # # https://ivanceras.github.io/svgbob-editor/
 # # cargo install svgbob_cli
@@ -40,7 +47,7 @@ background_color = "transparent" # also useful `var(--bg)`
 
 [preprocessor.admonish]
 command = "mdbook-admonish"
-assets_version = "1.0.0" # do not edit: managed by `mdbook-admonish install`
+assets_version = "2.0.0" # do not edit: managed by `mdbook-admonish install`
 
 
 
